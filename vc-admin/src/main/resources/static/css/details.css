@@ -1,0 +1,17 @@
+.basicData{background-color: #fff;border-bottom: 1px solid #e9e9e9;}
+.basicData .layui-table{margin: 0;}
+.portrait_name{color: #222;}
+.portrait_value{color: #888;}
+
+.layui-nav{height: 40px;background-color: #fff;padding: 0 30px;margin-top: 10px;}
+.layui-nav .layui-nav-item{line-height: 40px;}
+.layui-nav li{height: 40px;padding: 0;}
+.layui-nav li+li{margin-left: 15px;}
+.layui-nav .layui-nav-item a{color: #666;padding:0;}
+.layui-nav .layui-nav-item a:hover, .layui-nav .layui-this a{color: #1E9FFF;}
+.layui-nav-bar{height: 2px;top: 38px;background-color: #1E9FFF;}
+.layui-nav .layui-this:after{height: 2px;background-color: #1E9FFF;}
+.time_ul{border-top: 1px solid #e8e8e8;}
+.time_ul .time_li{padding: 15px 40px;border-bottom: 1px solid #e8e8e8;}
+.time_ul .time_li div{display: inline-block;}
+.time_ul .time_li .layui-btn-xs{float: right;font-size: 14px;}

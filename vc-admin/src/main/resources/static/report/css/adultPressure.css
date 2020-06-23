@@ -1,0 +1,32 @@
+h3.twoLevelTitle{
+    color: #fd6601;
+    margin-bottom:20px;
+}
+h3.twoLevelTitle:before {
+    content: "■";
+    font-size: 30px;
+    color: #FF9933;
+    line-height: 1;
+    margin-right: 0.35em;
+}
+.annotation{
+    margin-bottom: 30px;
+}
+.container{
+    margin: 20px 0px;
+}
+.con_1 .legend{
+    color: #333333;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.con_3 .legend,.con_4 .legend,.con_5 .legend{
+    margin-bottom: 30px;
+}
+.con_1 p,.con_2 > p,.con_3 p,.con_4 p,.con_5 p{
+    margin-bottom: 20px;
+}
+.pressureBox{
+    text-align: center;
+    margin: 0px auto;
+}

@@ -1,0 +1,10 @@
+/*修改密码*/
+.formList{width: 480px;margin: 20px auto;}
+.formList .layui-form-label{padding: 6px 10px;width: 80px;text-align: right;}
+.layui-form-item .layui-inline {margin-bottom: 20px;}
+.compile{width: 300px;}
+.novel{position: relative;}
+.notes{width: 200px;font-size: 10px;position: absolute;margin-left: 20px;top: -2px;left: 400px;}
+.center_box {text-align: center;}
+.center_box .layui-btn {height: 32px;line-height: 32px;padding: 0 30px;border-radius: 5px;
+    background-color: #5787fb;}

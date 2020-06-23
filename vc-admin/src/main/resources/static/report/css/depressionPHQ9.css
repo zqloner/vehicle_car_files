@@ -1,0 +1,7 @@
+.block{
+    vertical-align: inherit;
+    font-size: 23px;
+    display: inline-block;
+    color: rgb(255,144,0);
+    margin-right: 15px;
+}

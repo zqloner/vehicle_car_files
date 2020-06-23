@@ -1,0 +1,1736 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="88a76c6c-b82b-4c19-977a-8c5fe3e25754" name="Default Changelist" comment="init">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cn_hutool_hutool_all_4_5_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_spring_boot_starter_1_1_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_47.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_3_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_annotation_3_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_boot_starter_3_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_core_3_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_extension_3_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_generator_3_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_autoconfigure_1_2_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_starter_1_2_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_18_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jcraft_jsch_0_1_55.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_5_3_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_50_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_50_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_50_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_50_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_50_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_50_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_3_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ant_ant_1_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ant_ant_launcher_1_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_13_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_13_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_cache_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_config_core_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_config_ogdl_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_core_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_cipher_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_core_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_hash_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_event_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_lang_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_spring_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_web_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_36.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_36.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_2_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_16_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jakarta_el_3_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_21_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_1_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reflections_reflections_0_9_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_3_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_3_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_2_3_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_3_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_3_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_2_3_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_3_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_3_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_3_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_3_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_3_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_3_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_3_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_3_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_3_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_3_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_3_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_2_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_2_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_2_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/sys.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/java/com/mgl/VcAdminApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/java/com/mgl/common/MyExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/java/com/mgl/config/ShiroConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/java/com/mgl/config/Swagger2Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/java/com/mgl/controller/cars/MglVehicleCarInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/java/com/mgl/controller/cars/MglVehicleCarTotalInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/java/com/mgl/controller/login/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/java/com/mgl/controller/sys/SysAdminUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/java/com/mgl/controller/sys/SysMenuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/java/com/mgl/controller/sys/SysRoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/java/com/mgl/controller/sys/SysRoleMenuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/java/com/mgl/controller/sys/SysUserRoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/java/com/mgl/controller/view/ViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/java/com/mgl/shiro/CustomRealm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/java/com/mgl/shiro/RedisSessionDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/java/com/mgl/shiro/ShiroProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/java/com/mgl/utils/ShiroUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/application-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/logback-boot.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/css/administratorAccount.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/css/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/css/dataImport.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/css/details.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/css/install.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/css/newTask.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/css/public.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/css/taskDetails.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/css/userFeedback.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/exe/wkhtmltopdf.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/img/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/img/pass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/img/portrait.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/img/seize.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/img/sortDown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/img/sorting.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/img/tick.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/img/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/js/accountManagement/administratorAccount.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/js/accountManagement/clientAccount.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/js/ajax.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/js/bodyTab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/js/cars/cars-info.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/js/cars/cars-total-info.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/js/cars/editingTask.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/js/cars/newTask.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/js/cars/taskDetails.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/js/dataImport/biology.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/js/dataImport/biologyDetails.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/js/dataImport/bodyFoundation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/js/dataImport/bodyFoundationDetails.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/js/dataImport/characteristic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/js/dataImport/characteristicDetails.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/js/dataImport/electroencephalogram.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/js/dataImport/electroencephalogramDetails.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/js/dataImport/hapticInteraction.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/js/dataImport/hapticInteractionDetails.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/js/dataImport/managementScience.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/js/dataImport/managementScienceDetails.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/js/dataImport/mindSharing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/js/dataImport/mindSharingDetails.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/js/dataImport/physicalFitness.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/js/dataImport/physicalFitnessDetails.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/js/dataImport/physiological.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/js/dataImport/physiologicalDetails.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/js/fileManagement/basicIndex.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/js/fileManagement/basicIndexDetails.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/js/fileUpload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/js/hour.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/js/install.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/js/login/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/js/nav.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/js/pagination.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/js/projectile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/js/systemManagement/userFeedback.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/js/verify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/css/layui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/css/layui.mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/css/modules/code.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/css/modules/layer/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/css/modules/layer/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/font/iconfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/images/face/0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/images/face/1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/images/face/10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/images/face/11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/images/face/12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/images/face/13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/images/face/14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/images/face/15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/images/face/16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/images/face/17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/images/face/18.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/images/face/19.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/images/face/2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/images/face/20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/images/face/21.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/images/face/22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/images/face/23.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/images/face/24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/images/face/25.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/images/face/26.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/images/face/27.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/images/face/28.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/images/face/29.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/images/face/3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/images/face/30.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/images/face/31.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/images/face/32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/images/face/33.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/images/face/34.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/images/face/35.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/images/face/36.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/images/face/37.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/images/face/38.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/images/face/39.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/images/face/4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/images/face/40.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/images/face/41.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/images/face/42.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/images/face/43.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/images/face/44.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/images/face/45.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/images/face/46.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/images/face/47.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/images/face/48.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/images/face/49.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/images/face/5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/images/face/50.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/images/face/51.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/images/face/52.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/images/face/53.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/images/face/54.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/images/face/55.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/images/face/56.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/images/face/57.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/images/face/58.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/images/face/59.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/images/face/6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/images/face/60.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/images/face/61.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/images/face/62.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/images/face/63.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/images/face/64.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/images/face/65.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/images/face/66.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/images/face/67.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/images/face/68.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/images/face/69.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/images/face/7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/images/face/70.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/images/face/71.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/images/face/8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/images/face/9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/lay/modules/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/lay/modules/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/lay/modules/colorpicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/lay/modules/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/lay/modules/flow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/lay/modules/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/lay/modules/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/lay/modules/laydate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/lay/modules/layedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/lay/modules/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/lay/modules/laypage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/lay/modules/laytpl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/lay/modules/mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/lay/modules/rate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/lay/modules/slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/lay/modules/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/lay/modules/transfer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/lay/modules/tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/lay/modules/upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/lay/modules/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/layui.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/libs/layui/layui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/css/16pf.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/css/16pfExport.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/css/MNSD.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/css/adultPressure.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/css/basic.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/css/cikonss.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/css/connersParents.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/css/depressionPHQ9.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/css/gauge.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/css/jobSatisfactionCurrency.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/css/mentalHealthGHQ12.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/css/mentalHealthTeenagers.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/css/multivariateReport.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/css/organizationAscription.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/css/pcl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/css/pressure.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/css/psychologicalExamination.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/css/psychologicalSecurityRisk.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/css/reSet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/css/safeProduction.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/css/symptomTeenagers.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/css/symptomTwo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/css/teacherOccupation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/css/teacherOccupationBasic.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/docImage/imgAge1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/docImage/imgSex1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/images/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/images/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/images/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/images/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/images/EmotionIqBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/images/MNSD.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/images/bitmap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/images/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/images/columnBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/images/columnBg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/images/conclusion_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/images/conclusion_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/images/conclusion_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/images/cy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/images/female.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/images/h.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/images/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/images/jgfx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/images/location.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/images/male.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/images/multivariate.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/images/occupation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/images/personality.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/images/personalityChild.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/images/pressure.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/images/pressureCurve_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/images/pressureCurve_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/images/pressureCurve_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/images/pressureCurve_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/images/pressure_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/images/pressure_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/images/pressure_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/images/pressure_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/images/self-efficacy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/images/state.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/16pf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/16pfExport.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/16pfcaculate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/AEHM.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/AttackTestForMiddleSchool.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/ConnersChildForParent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/DiscIndividuality.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/HhRiskTest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/MBTI.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/MNSD.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/Russell.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/UCLA.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/YaLiFanYing.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/academic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/achievementMotivation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/adbDepressed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/adultPressure.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/agreeableness.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/answer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/anxiety-2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/anxiety.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/anxietyTeenagers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/anxiousGAD7.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/avoidFailure.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/baGraph.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/behaviorA.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/bigFivePersonality.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/childAutism.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/childHyperactivity.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/cognitive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/communication.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/comprehend.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/conners.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/defenseMode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/dementiaScreening.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/depressed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/depressionPHQ9.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/drinkQuestionnaire.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/elderlyDepression.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/emotionAdjustment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/emotionIq.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/ennui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/exchangeFear.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/explain.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/expressiveAbility.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/familyChildren.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/familyCommunication.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/familyEnvironment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/familyEnvironmentChild.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/harmony.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/include/echarts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/include/echarts.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/include/highcharts-more.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/include/highcharts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/include/jquery-1.7.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/include/jquery-1.8.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/include/jquery.barrating.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/include/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/individuality.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/inferiority.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/inferiorityTeenagers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/interpersonal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/jobControl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/jobSatisfaction.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/jobSatisfactionCurrency.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/lifeCapability.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/lifeQuality.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/liveSatisfactionA.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/manageBehavior.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/marriage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/memoryObstacle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/mentalHealth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/mentalHealthGHQ12.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/mentalHealthTeenagers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/moodStability.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/moodStability1_2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/multivariateReport.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/network.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/networkTeenagers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/organizationAscription.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/organizationIncentive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/pcl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/pdq-4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/personality.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/personalityChild.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/pressure.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/pressureoridinary.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/psychologicalCapital.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/psychologicalCapitalSudian.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/psychologicalExamination_1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/psychologicalSecurityRisk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/ravensProgressiveMatrices.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/safeProduction.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/schoolmate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/sleep.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/socialActivity.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/strengthsAndDifficulties.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/studentMentalHealth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/studentPersonality.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/studentSuitability.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/subjectivityHappiness.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/suicideRisk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/symptom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/symptomStudent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/symptomTwo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/teacherOccupation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/teamRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/teenagersLifeSatisfaction.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/teenagersQualityLife.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/temperamentType.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/totalityHappiness.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/value.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/valueDisplay.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/js/valueDisplay_2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/echarts/e_3.85/echarts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/echarts/e_4.0/echarts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/echarts/e_4.0/echarts.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/echarts/echarts-4.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/echarts/echarts.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/echarts/echarts_customized_soldier_min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/css/layui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/css/layui.mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/css/modules/code.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/css/modules/layer/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/css/modules/layer/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/images/face/0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/images/face/1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/images/face/10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/images/face/11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/images/face/12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/images/face/13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/images/face/14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/images/face/15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/images/face/16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/images/face/17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/images/face/18.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/images/face/19.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/images/face/2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/images/face/20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/images/face/21.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/images/face/22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/images/face/23.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/images/face/24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/images/face/25.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/images/face/26.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/images/face/27.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/images/face/28.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/images/face/29.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/images/face/3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/images/face/30.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/images/face/31.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/images/face/32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/images/face/33.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/images/face/34.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/images/face/35.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/images/face/36.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/images/face/37.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/images/face/38.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/images/face/39.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/images/face/4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/images/face/40.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/images/face/41.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/images/face/42.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/images/face/43.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/images/face/44.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/images/face/45.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/images/face/46.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/images/face/47.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/images/face/48.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/images/face/49.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/images/face/5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/images/face/50.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/images/face/51.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/images/face/52.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/images/face/53.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/images/face/54.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/images/face/55.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/images/face/56.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/images/face/57.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/images/face/58.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/images/face/59.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/images/face/6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/images/face/60.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/images/face/61.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/images/face/62.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/images/face/63.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/images/face/64.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/images/face/65.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/images/face/66.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/images/face/67.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/images/face/68.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/images/face/69.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/images/face/7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/images/face/70.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/images/face/71.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/images/face/8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/images/face/9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/lay/modules/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/lay/modules/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/lay/modules/colorpicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/lay/modules/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/lay/modules/flow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/lay/modules/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/lay/modules/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/lay/modules/laydate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/lay/modules/layedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/lay/modules/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/lay/modules/laypage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/lay/modules/laytpl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/lay/modules/mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/lay/modules/rate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/lay/modules/slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/lay/modules/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/lay/modules/tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/lay/modules/upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/lay/modules/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/layui.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/report/libs/layui/layui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/utils/DateUtils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/static/utils/md5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/templates/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/templates/accountManagement/administratorAccount.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/templates/accountManagement/clientAccount.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/templates/cars/cars-info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/templates/cars/cars-total-info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/templates/install.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/templates/login/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/templates/sys/adminUser.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/main/resources/templates/sys/clientAccount.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-admin/src/test/java/com/mgl/VcAdminApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-mbpg/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-mbpg/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-mbpg/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-mbpg/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-mbpg/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-mbpg/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-mbpg/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-mbpg/src/main/java/com/mgl/MpGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-mbpg/src/main/java/com/mgl/bean/cars/MglVehicleCarInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-mbpg/src/main/java/com/mgl/bean/cars/MglVehicleCarTotalInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-mbpg/src/main/java/com/mgl/bean/sys/SysAdminUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-mbpg/src/main/java/com/mgl/bean/sys/SysMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-mbpg/src/main/java/com/mgl/bean/sys/SysRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-mbpg/src/main/java/com/mgl/bean/sys/SysRoleMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-mbpg/src/main/java/com/mgl/bean/sys/SysUserRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-mbpg/src/main/java/com/mgl/bean/sys/dto/SysAdminUserListDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-mbpg/src/main/java/com/mgl/bean/sys/dto/SysMenuDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-mbpg/src/main/java/com/mgl/bean/sys/dto/SysRoleDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-mbpg/src/main/java/com/mgl/bean/sys/dto/SysRoleListDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-mbpg/src/main/java/com/mgl/bean/sys/vo/SysAdminUserListVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-mbpg/src/main/java/com/mgl/config/MybatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-mbpg/src/main/java/com/mgl/controller/cars/MglVehicleCarTotalInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-mbpg/src/main/java/com/mgl/dao/cars/MglVehicleCarInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-mbpg/src/main/java/com/mgl/dao/cars/MglVehicleCarTotalInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-mbpg/src/main/java/com/mgl/dao/sys/SysAdminUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-mbpg/src/main/java/com/mgl/dao/sys/SysMenuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-mbpg/src/main/java/com/mgl/dao/sys/SysRoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-mbpg/src/main/java/com/mgl/dao/sys/SysRoleMenuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-mbpg/src/main/java/com/mgl/dao/sys/SysUserRoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-mbpg/src/main/java/com/mgl/service/cars/MglVehicleCarInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-mbpg/src/main/java/com/mgl/service/cars/MglVehicleCarTotalInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-mbpg/src/main/java/com/mgl/service/cars/impl/MglVehicleCarInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-mbpg/src/main/java/com/mgl/service/cars/impl/MglVehicleCarTotalInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-mbpg/src/main/java/com/mgl/service/sys/SysAdminUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-mbpg/src/main/java/com/mgl/service/sys/SysMenuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-mbpg/src/main/java/com/mgl/service/sys/SysRoleMenuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-mbpg/src/main/java/com/mgl/service/sys/SysRoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-mbpg/src/main/java/com/mgl/service/sys/SysUserRoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-mbpg/src/main/java/com/mgl/service/sys/impl/SysAdminUserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-mbpg/src/main/java/com/mgl/service/sys/impl/SysMenuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-mbpg/src/main/java/com/mgl/service/sys/impl/SysRoleMenuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-mbpg/src/main/java/com/mgl/service/sys/impl/SysRoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-mbpg/src/main/java/com/mgl/service/sys/impl/SysUserRoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-mbpg/src/main/java/com/mgl/utils/CommonPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-mbpg/src/main/resources/mapper/cars/MglVehicleCarInfo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-mbpg/src/main/resources/mapper/cars/MglVehicleCarTotalInfo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-mbpg/src/main/resources/mapper/sys/SysAdminUser.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-mbpg/src/main/resources/mapper/sys/SysMenu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-mbpg/src/main/resources/mapper/sys/SysRole.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-mbpg/src/main/resources/mapper/sys/SysRoleMenu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-mbpg/src/main/resources/mapper/sys/SysUserRole.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-mbpg/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-mbpg/src/main/resources/mybatis-plus.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-mbpg/src/test/java/com/mgl/VcMbpgApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-pub/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-pub/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-pub/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-pub/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-pub/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-pub/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-pub/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-pub/src/main/java/com/mgl/annotation/Excel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-pub/src/main/java/com/mgl/annotation/ExcelColumn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-pub/src/main/java/com/mgl/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-pub/src/main/java/com/mgl/constant/CommonResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-pub/src/main/java/com/mgl/constant/Constant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-pub/src/main/java/com/mgl/constant/IErrorCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-pub/src/main/java/com/mgl/constant/ResultCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-pub/src/main/java/com/mgl/constant/ScalePath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-pub/src/main/java/com/mgl/constant/enums/MissionTypeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-pub/src/main/java/com/mgl/constant/properties/PathProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-pub/src/main/java/com/mgl/utils/DateUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-pub/src/main/java/com/mgl/utils/ExcelCreate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-pub/src/main/java/com/mgl/utils/ExcelUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-pub/src/main/java/com/mgl/utils/FileUploadUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-pub/src/main/java/com/mgl/utils/HtmlToPdf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-pub/src/main/java/com/mgl/utils/HttpClientUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-pub/src/main/java/com/mgl/utils/IpUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-pub/src/main/java/com/mgl/utils/RedisUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-pub/src/main/java/com/mgl/utils/SFTPChannel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vc-pub/src/main/java/com/mgl/utils/ZipFileUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vehicle_car_files.iml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/vc-admin/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/vc-common/target/" />
+    <ignored path="$PROJECT_DIR$/vc-mbpg/target/" />
+    <ignored path="$PROJECT_DIR$/vc-pub/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vc-admin/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="445">
+              <caret line="29" column="8" lean-forward="true" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>特战分队配属与训练一体化应用系统</find>
+      <find>特战分队配属与训</find>
+      <find>特战分队配属</find>
+      <find>荣盛盟固利车间档案系统</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/vc-admin/src/main/resources/application-prod.yml" />
+        <option value="$PROJECT_DIR$/vc-admin/src/main/java/com/mgl/config/Swagger2Config.java" />
+        <option value="$PROJECT_DIR$/vc-admin/src/main/java/com/mgl/common/MyExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/vc-pub/pom.xml" />
+        <option value="$PROJECT_DIR$/vc-mbpg/pom.xml" />
+        <option value="$PROJECT_DIR$/vc-pub/src/main/java/com/mgl/utils/ExcelUtils.java" />
+        <option value="$PROJECT_DIR$/vc-admin/src/main/java/com/mgl/shiro/RedisSessionDao.java" />
+        <option value="$PROJECT_DIR$/vc-admin/src/main/java/com/mgl/config/ShiroConfig.java" />
+        <option value="$PROJECT_DIR$/vc-pub/src/main/java/com/mgl/utils/HtmlToPdf.java" />
+        <option value="$PROJECT_DIR$/vc-admin/src/main/java/com/mgl/controller/cars/MglVehicleCarInfoController.java" />
+        <option value="$PROJECT_DIR$/vc-admin/src/main/java/com/mgl/shiro/CustomRealm.java" />
+        <option value="$PROJECT_DIR$/vc-admin/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/vc-pub/src/main/java/com/mgl/utils/SFTPChannel.java" />
+        <option value="$PROJECT_DIR$/vc-pub/src/main/java/com/mgl/utils/FileUploadUtil.java" />
+        <option value="$PROJECT_DIR$/vc-admin/pom.xml" />
+        <option value="$PROJECT_DIR$/vc-admin/src/main/java/com/mgl/controller/view/ViewController.java" />
+        <option value="$PROJECT_DIR$/vc-admin/src/main/java/com/mgl/controller/login/LoginController.java" />
+        <option value="$PROJECT_DIR$/vc-admin/src/main/java/com/mgl/utils/ShiroUtils.java" />
+        <option value="$PROJECT_DIR$/vc-mbpg/src/main/java/com/mgl/bean/sys/SysUserRole.java" />
+        <option value="$PROJECT_DIR$/vc-mbpg/src/main/java/com/mgl/dao/sys/SysRoleMenuMapper.java" />
+        <option value="$PROJECT_DIR$/vc-mbpg/src/main/java/com/mgl/dao/sys/SysUserRoleMapper.java" />
+        <option value="$PROJECT_DIR$/vc-mbpg/src/main/java/com/mgl/bean/sys/dto/SysMenuDto.java" />
+        <option value="$PROJECT_DIR$/vc-mbpg/src/main/java/com/mgl/dao/sys/SysMenuMapper.java" />
+        <option value="$PROJECT_DIR$/vc-mbpg/src/main/resources/mapper/sys/SysMenu.xml" />
+        <option value="$PROJECT_DIR$/vc-mbpg/src/main/java/com/mgl/bean/sys/dto/SysRoleListDto.java" />
+        <option value="$PROJECT_DIR$/vc-mbpg/src/main/java/com/mgl/bean/sys/dto/SysRoleDto.java" />
+        <option value="$PROJECT_DIR$/vc-mbpg/src/main/java/com/mgl/bean/sys/dto/SysAdminUserListDto.java" />
+        <option value="$PROJECT_DIR$/vc-mbpg/src/main/resources/mapper/sys/SysRole.xml" />
+        <option value="$PROJECT_DIR$/vc-mbpg/src/main/java/com/mgl/dao/sys/SysRoleMapper.java" />
+        <option value="$PROJECT_DIR$/vc-mbpg/src/main/java/com/mgl/bean/sys/vo/SysAdminUserListVo.java" />
+        <option value="$PROJECT_DIR$/vc-mbpg/src/main/java/com/mgl/dao/sys/SysAdminUserMapper.java" />
+        <option value="$PROJECT_DIR$/vc-mbpg/src/main/resources/mapper/sys/SysAdminUser.xml" />
+        <option value="$PROJECT_DIR$/vc-mbpg/src/main/java/com/mgl/service/sys/SysRoleService.java" />
+        <option value="$PROJECT_DIR$/vc-mbpg/src/main/java/com/mgl/service/sys/SysMenuService.java" />
+        <option value="$PROJECT_DIR$/vc-mbpg/src/main/java/com/mgl/service/sys/SysAdminUserService.java" />
+        <option value="$PROJECT_DIR$/vc-mbpg/src/main/java/com/mgl/service/sys/impl/SysRoleServiceImpl.java" />
+        <option value="$PROJECT_DIR$/vc-mbpg/src/main/java/com/mgl/service/sys/impl/SysMenuServiceImpl.java" />
+        <option value="$PROJECT_DIR$/vc-mbpg/src/main/java/com/mgl/service/sys/impl/SysAdminUserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/vc-admin/src/main/java/com/mgl/controller/sys/SysAdminUserController.java" />
+        <option value="$PROJECT_DIR$/vc-admin/src/main/java/com/mgl/controller/sys/SysMenuController.java" />
+        <option value="$PROJECT_DIR$/vc-admin/src/main/java/com/mgl/controller/sys/SysRoleController.java" />
+        <option value="$PROJECT_DIR$/vc-mbpg/src/main/resources/mybatis-plus.properties" />
+        <option value="$PROJECT_DIR$/vc-admin/src/main/java/com/mgl/controller/cars/MglVehicleCarTotalInfoController.java" />
+        <option value="$PROJECT_DIR$/vc-mbpg/src/main/java/com/mgl/dao/cars/MglVehicleCarTotalInfoMapper.java" />
+        <option value="$PROJECT_DIR$/vc-admin/src/main/resources/templates/mgl/cars/cars-info.html" />
+        <option value="$PROJECT_DIR$/vc-admin/src/main/resources/templates/mgl/cars/cars-total-info.html" />
+        <option value="$PROJECT_DIR$/vc-admin/src/main/resources/templates/cars/cars-total-info.html" />
+        <option value="$PROJECT_DIR$/vc-admin/src/main/resources/templates/cars/cars-info.html" />
+        <option value="$PROJECT_DIR$/vc-admin/src/main/resources/templates/login/login.html" />
+        <option value="$PROJECT_DIR$/vc-admin/src/main/resources/templates/index.html" />
+        <option value="$PROJECT_DIR$/vc-admin/src/main/resources/application.yml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="vc-admin" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="vc-mbpg" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="vc-mbpg" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="vehicle_car_files" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vehicle_car_files" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vehicle_car_files" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vehicle_car_files" type="462c0819:PsiDirectoryNode" />
+              <item name="vc-admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vehicle_car_files" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vehicle_car_files" type="462c0819:PsiDirectoryNode" />
+              <item name="vc-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vehicle_car_files" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vehicle_car_files" type="462c0819:PsiDirectoryNode" />
+              <item name="vc-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vehicle_car_files" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vehicle_car_files" type="462c0819:PsiDirectoryNode" />
+              <item name="vc-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vehicle_car_files" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vehicle_car_files" type="462c0819:PsiDirectoryNode" />
+              <item name="vc-mbpg" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vehicle_car_files" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vehicle_car_files" type="462c0819:PsiDirectoryNode" />
+              <item name="vc-mbpg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vehicle_car_files" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vehicle_car_files" type="462c0819:PsiDirectoryNode" />
+              <item name="vc-mbpg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vehicle_car_files" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vehicle_car_files" type="462c0819:PsiDirectoryNode" />
+              <item name="vc-mbpg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vehicle_car_files" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vehicle_car_files" type="462c0819:PsiDirectoryNode" />
+              <item name="vc-mbpg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mgl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vehicle_car_files" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vehicle_car_files" type="462c0819:PsiDirectoryNode" />
+              <item name="vc-mbpg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mgl" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vehicle_car_files" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vehicle_car_files" type="462c0819:PsiDirectoryNode" />
+              <item name="vc-mbpg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mgl" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+              <item name="sys" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vehicle_car_files" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vehicle_car_files" type="462c0819:PsiDirectoryNode" />
+              <item name="vc-mbpg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mgl" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+              <item name="sys" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vehicle_car_files" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vehicle_car_files" type="462c0819:PsiDirectoryNode" />
+              <item name="vc-mbpg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mgl" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+              <item name="sys" type="462c0819:PsiDirectoryNode" />
+              <item name="vo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vehicle_car_files" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vehicle_car_files" type="462c0819:PsiDirectoryNode" />
+              <item name="vc-mbpg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mgl" type="462c0819:PsiDirectoryNode" />
+              <item name="cars" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vehicle_car_files" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vehicle_car_files" type="462c0819:PsiDirectoryNode" />
+              <item name="vc-mbpg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mgl" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vehicle_car_files" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vehicle_car_files" type="462c0819:PsiDirectoryNode" />
+              <item name="vc-mbpg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mgl" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="cars" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vehicle_car_files" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vehicle_car_files" type="462c0819:PsiDirectoryNode" />
+              <item name="vc-mbpg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mgl" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="sys" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vehicle_car_files" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vehicle_car_files" type="462c0819:PsiDirectoryNode" />
+              <item name="vc-mbpg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mgl" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vehicle_car_files" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vehicle_car_files" type="462c0819:PsiDirectoryNode" />
+              <item name="vc-mbpg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mgl" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="cars" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vehicle_car_files" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vehicle_car_files" type="462c0819:PsiDirectoryNode" />
+              <item name="vc-mbpg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mgl" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="sys" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vehicle_car_files" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vehicle_car_files" type="462c0819:PsiDirectoryNode" />
+              <item name="vc-mbpg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mgl" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="sys" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vehicle_car_files" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vehicle_car_files" type="462c0819:PsiDirectoryNode" />
+              <item name="vc-mbpg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mgl" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vehicle_car_files" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vehicle_car_files" type="462c0819:PsiDirectoryNode" />
+              <item name="vc-mbpg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vehicle_car_files" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vehicle_car_files" type="462c0819:PsiDirectoryNode" />
+              <item name="vc-mbpg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vehicle_car_files" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vehicle_car_files" type="462c0819:PsiDirectoryNode" />
+              <item name="vc-mbpg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="cars" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vehicle_car_files" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vehicle_car_files" type="462c0819:PsiDirectoryNode" />
+              <item name="vc-mbpg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="sys" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vehicle_car_files" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vehicle_car_files" type="462c0819:PsiDirectoryNode" />
+              <item name="vc-mbpg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vehicle_car_files" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vehicle_car_files" type="462c0819:PsiDirectoryNode" />
+              <item name="vc-pub" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vehicle_car_files" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vehicle_car_files" type="462c0819:PsiDirectoryNode" />
+              <item name="vc-pub" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vehicle_car_files" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vehicle_car_files" type="462c0819:PsiDirectoryNode" />
+              <item name="vc-pub" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vehicle_car_files" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vehicle_car_files" type="462c0819:PsiDirectoryNode" />
+              <item name="vc-pub" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vehicle_car_files" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vehicle_car_files" type="462c0819:PsiDirectoryNode" />
+              <item name="vc-pub" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mgl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vehicle_car_files" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vehicle_car_files" type="462c0819:PsiDirectoryNode" />
+              <item name="vc-pub" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mgl" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vehicle_car_files" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vehicle_car_files" type="462c0819:PsiDirectoryNode" />
+              <item name="vc-pub" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mgl" type="462c0819:PsiDirectoryNode" />
+              <item name="constant" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vehicle_car_files" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vehicle_car_files" type="462c0819:PsiDirectoryNode" />
+              <item name="vc-pub" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mgl" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.22873563" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="typescript.add.unambiguous.imports.on.the.fly" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\D\Code\vehicle_car_files\vc-admin\src\main\resources\templates" />
+      <recent name="E:\D\Code\vehicle_car_files\vc-admin\src\main\resources\static\js\cars" />
+      <recent name="E:\D\Code\vehicle_car_files\vc-admin\src\main\resources\templates\cars" />
+      <recent name="E:\D\Code\vehicle_car_files\vc-mbpg\src\main\java\com\mgl\bean\sys\dto" />
+      <recent name="E:\D\Code\vehicle_car_files\vc-mbpg\src\main\resources\mapper\sys" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.mgl.controller.cars" />
+      <recent name="com.mgl.controller.login" />
+      <recent name="com.mgl.controller.view" />
+      <recent name="com.mgl.controller.sys" />
+      <recent name="com.mgl.utils" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\D\Code\vehicle_car_files\vc-admin\src\main\resources\templates\mgl" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.VcAdminApplication">
+    <configuration name="MpGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mgl.MpGenerator" />
+      <module name="vc-mbpg" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mgl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VcAdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="vc-admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mgl.VcAdminApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.MpGenerator" />
+      <item itemvalue="Spring Boot.VcAdminApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MpGenerator" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="88a76c6c-b82b-4c19-977a-8c5fe3e25754" name="Default Changelist" comment="" />
+      <created>1592725456583</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592725456583</updated>
+      <workItem from="1592725470032" duration="13829000" />
+      <workItem from="1592786408727" duration="270000" />
+      <workItem from="1592787194056" duration="137000" />
+      <workItem from="1592787369329" duration="12000" />
+      <workItem from="1592880702215" duration="311000" />
+      <workItem from="1592904228455" duration="241000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="14800000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24413647" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38244852" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.42361864" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.3347779" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32936078" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.40778252" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/vc-mbpg/src/main/java/com/mgl/MpGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vc-mbpg/src/main/java/com/mgl/controller/sys/SysUserRoleController.java" />
+    <entry file="file://$PROJECT_DIR$/vc-mbpg/src/main/java/com/mgl/controller/sys/SysRoleMenuController.java" />
+    <entry file="file://$PROJECT_DIR$/vc-mbpg/src/main/java/com/mgl/controller/sys/SysMenuController.java" />
+    <entry file="file://$PROJECT_DIR$/vc-mbpg/src/main/java/com/mgl/controller/sys/SysRoleController.java" />
+    <entry file="file://$PROJECT_DIR$/vc-admin/src/main/java/com/mgl/controller/sys/SysUserRoleController.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vc-admin/src/main/java/com/mgl/controller/sys/SysRoleMenuController.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vc-mbpg/src/main/java/com/mgl/bean/sys/SysMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vc-mbpg/src/main/java/com/mgl/bean/sys/dto/SysMenuDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vc-mbpg/src/main/resources/mapper/sys/SysMenu.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="46" column="28" lean-forward="true" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vc-mbpg/src/main/java/com/mgl/bean/sys/dto/SysRoleDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vc-mbpg/src/main/java/com/mgl/bean/sys/dto/SysRoleListDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vc-mbpg/src/main/java/com/mgl/bean/sys/dto/SysAdminUserListDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-25">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vc-mbpg/src/main/resources/mapper/sys/SysUserRole.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vc-mbpg/src/main/resources/mapper/sys/SysRole.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vc-mbpg/src/main/java/com/mgl/bean/sys/vo/SysAdminUserListVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vc-mbpg/src/main/resources/mapper/sys/SysAdminUser.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="27" column="84" selection-start-line="27" selection-start-column="84" selection-end-line="27" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vc-mbpg/src/main/java/com/mgl/service/sys/SysRoleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vc-mbpg/src/main/java/com/mgl/service/sys/SysMenuService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="17" selection-start-line="17" selection-end-line="18" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vc-mbpg/src/main/java/com/mgl/service/sys/SysAdminUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="34" column="68" selection-start-line="34" selection-start-column="68" selection-end-line="34" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vc-mbpg/src/main/java/com/mgl/service/sys/impl/SysRoleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2325">
+          <caret line="119" column="5" selection-start-line="119" selection-start-column="5" selection-end-line="119" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vc-mbpg/src/main/java/com/mgl/service/sys/impl/SysMenuServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vc-mbpg/src/main/java/com/mgl/service/sys/impl/SysAdminUserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3975">
+          <caret line="161" selection-start-line="161" selection-end-line="161" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vc-admin/src/main/java/com/mgl/controller/sys/SysMenuController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vc-admin/src/main/java/com/mgl/controller/sys/SysRoleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vc-mbpg/src/main/resources/mybatis-plus.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vc-admin/src/main/java/com/mgl/controller/cars/MglVehicleCarTotalInfoController.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vc-mbpg/src/main/java/com/mgl/dao/sys/SysUserRoleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vc-mbpg/src/main/java/com/mgl/dao/sys/SysRoleMenuMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vc-mbpg/src/main/java/com/mgl/dao/sys/SysRoleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vc-mbpg/src/main/java/com/mgl/dao/sys/SysMenuMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vc-mbpg/src/main/java/com/mgl/dao/sys/SysAdminUserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="20" selection-start-line="20" selection-end-line="20" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vc-mbpg/src/main/java/com/mgl/dao/cars/MglVehicleCarTotalInfoMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vc-mbpg/src/main/java/com/mgl/dao/cars/MglVehicleCarInfoMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vc-admin/src/main/resources/static/js/cars/cars-total-info.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vc-admin/src/main/resources/static/js/cars/cars-info.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3239" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vc-admin/src/main/resources/templates/mgl/cars/cars-info.html" />
+    <entry file="file://$PROJECT_DIR$/vc-admin/src/main/resources/templates/mgl/cars/cars-total-info.html" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.2.7.RELEASE/spring-web-5.2.7.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="31" column="94" selection-start-line="31" selection-start-column="94" selection-end-line="31" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vc-admin/src/main/java/com/mgl/controller/sys/SysAdminUserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="800">
+          <caret line="41" column="57" selection-start-line="41" selection-start-column="57" selection-end-line="41" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vc-admin/src/main/resources/templates/cars/cars-total-info.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="42" column="36" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vc-admin/src/main/resources/templates/cars/cars-info.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2000">
+          <caret line="80" column="7" selection-start-line="80" selection-start-column="7" selection-end-line="80" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vc-admin/src/main/resources/templates/sys/clientAccount.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vc-admin/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="22" column="67" selection-start-line="22" selection-start-column="67" selection-end-line="22" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vc-admin/src/main/resources/templates/sys/adminUser.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vc-admin/src/main/resources/templates/login/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vc-admin/src/main/resources/templates/accountManagement/clientAccount.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1300">
+          <caret line="52" column="26" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vc-admin/src/main/resources/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vc-admin/src/main/java/com/mgl/controller/view/ViewController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vc-admin/src/main/resources/static/img/bg.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vc-admin/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="29" column="8" lean-forward="true" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>vc-common</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.22873563" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

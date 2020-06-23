@@ -1,0 +1,359 @@
+body{
+    max-width: 650px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+.wrap{
+    width: 90%;
+    margin: 0 auto;
+    text-align: justify;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.text-left{
+    text-align: left !important;
+}
+.text-right{
+    text-align: right !important;
+}
+.text-center{
+    text-align: center !important;
+}
+.label{
+    font-size: 14px;
+    color: #888888;
+    padding: 0px !important;
+    white-space: normal;
+}
+.color333 {
+    color: #333333;
+}
+.color666{
+    color: #666666 !important;
+}
+.color888{
+    color: #888888;
+}
+.color9933{
+    color: #FF9933;
+}
+.colorRed{
+    color: red;
+}
+.fontSize15px{
+    font-size: 15px !important;
+}
+.fontWeight600{
+    font-weight: 600;
+}
+.floatLeft{
+    float: left;
+}
+.floatRight{
+    float: right;
+}
+.marBottom10px{
+    margin-bottom: 10px !important;
+}
+.marBottom20px{
+    margin-bottom: 20px !important;
+}
+.marBottom40px{
+    margin-bottom: 40px !important;
+}
+/*返回结果*/
+.result{
+    color: #FF9933;
+    font-size: 18px;
+    margin-bottom: 33px;
+}
+.annotation{
+    color: #FF9933;
+    font-size: 14px;
+    line-height: 2em;
+}
+/*分割线*/
+.border{
+    border: 1px dashed #359963;
+    margin: 25px auto;
+}
+.prominent{
+    font-size: 16px;
+}
+
+/*全局返回结果*/
+.title {
+    border: 1px solid #ff7043;
+    color: #ff7043;
+    line-height: 26px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+/*.title div {*/
+    /*padding: 10px;*/
+/*}*/
+/*详情分析*/
+.blockTitle {
+    color: #fff;
+    background-color: rgba(51,153,102,1);
+    text-align: center;
+    font-size: 17px;
+    margin: 16px 0;
+    width: 100px;
+    height: 34px;
+    line-height: 34px;
+    border-radius: 4px;
+}
+.container {
+    margin: 16px auto 0px;
+    height: 300px;
+    max-width: 585px;
+}
+/*注解*/
+.legend {
+    color: #888888;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.mar_div{
+    padding: 10px 0px;
+    margin-bottom: 20px;
+}
+.mar_tab {
+    width: 100%;
+    text-align: center;
+}
+.mar_tab tr th{
+    text-align: center !important;
+}
+.mar_tab tr:first-child{
+    background-color: #8fec7d;
+}
+.mar_tab th, .mar_tab td {
+    border: 1px solid #999999;
+    padding: 4px 0px;
+}
+.anx_div{
+    margin: 20px 0px;
+}
+.anx_div table {
+    width: 100%;
+    text-align: center;
+}
+.anx_div table span {
+    font-weight: 600;
+}
+.anx_div table .anx_tr_2 {
+    color: #fff;
+}
+.anx_div table tr td{
+    width: 33.333%;
+}
+.anx_tr_2 td:nth-child(1){
+    background-color: #32CD32;
+}
+.anx_tr_2 td:nth-child(2){
+    background-color: #FFD700;
+}
+.anx_tr_2 td:nth-child(3){
+    background-color: #E3170D;
+}
+.mar_tab tr td:nth-child(2){
+    color: rgba(51,153,102,1);
+}
+.value {
+    width: 100%;
+    text-align: center;
+}
+.value th, .value td {
+    border: 1px solid #999999;
+    padding: 4px 0px;
+}
+.value tr td:nth-last-child(2){
+    color: rgba(51,153,102,1);
+}
+.pressureImg{
+    width: 100%;
+}
+.pressure_div{
+    text-align: center;
+}
+.legendBox{
+    padding-left: 35px;
+    position: relative;
+    top: 20px;
+}
+.legendBox span{
+    display: inline-block;
+    vertical-align: middle;
+}
+.legendImg1{
+    width: 30px;
+    height: 15px;
+    background-color: #F6D1BC;
+    margin-right: 5px;
+}
+.legendImg2{
+    width: 30px;
+    height: 3px;
+    background-color: red;
+    vertical-align: sub !important;
+    margin-left: 5%;
+    margin-right: 5px;
+}
+.color396{
+    color: #396;
+}
+/*青少年*/
+.indiv_div {
+    width: 100%;
+}
+.indiv_tab {
+    width: 300px;
+    text-align: center;
+    margin: 3% auto;
+    color: #00c957;
+}
+.textCenter{
+    text-align: center;
+}
+.textJustify{
+    text-align: justify !important;
+}
+.color000{
+    color: #000;
+}
+.middle{
+    display: inline;
+    vertical-align: middle;
+}
+/*download*/
+.download{
+    width: 100%;
+    max-width: 650px;
+    background-color: rgba(0, 0, 0, 0.81);
+    color: #FFFFFF;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+}
+.download a{
+    width: 86%;
+    position: relative;
+    padding-left: 10px;
+}
+.weui_media_box.weui_media_appmsg {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.weui_media_box.weui_media_appmsg .weui_media_hd {
+    margin-right: .8em;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+.weui_media_box.weui_media_appmsg .weui_media_appmsg_thumb {
+    width: 100%;
+    max-height: 100%;
+}
+.weui_media_box.weui_media_appmsg .weui_media_bd {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    min-width: 0;
+}
+.weui_media_box .weui_media_title {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 12px;
+    width: auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+.weui_media_box .weui_media_desc {
+    color: #FFFFFF;
+    font-size: 12px;
+    line-height: 1.2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.downWxl{
+    width: 80px;
+    padding: 0px 10px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #38ca8d;
+    border-radius: 5px;
+    text-align: center;
+    color: #FFFFFF;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+.close{
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    right: 23px;
+    top: 5px;
+}
+.close img{
+    width: 100%;
+}
+.block{
+    vertical-align: inherit;
+    font-size: 23px;
+    display: inline-block;
+    color: rgb(255,144,0);
+    margin-right: 15px;
+}
+.resultCon p{
+    margin-bottom: 20px;
+}
+.colorFF9933{
+    color: #FF9933;
+}
+
+.resultContent .labelBefore {
+    margin-bottom: 15px;
+}
+.resultContent .labelBefore:before {
+    content: "□";
+    font-size: 22px;
+    color: #FF9933;
+    line-height: 1;
+    margin-right: 0.65em;
+    margin-bottom: 20px;
+}
+.resultContent .icon:before {
+    content: "■";
+}
+.resultContent p {
+    margin-bottom: 20px;
+}
+.Echarts{
+    height: 300px;
+    max-width: 650px;
+}
+.table{
+    width: 100%;
+}
+.table tr td,.table tr th{
+    padding: 6px 12px;
+}

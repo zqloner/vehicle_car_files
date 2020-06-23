@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mgl.dao.sys.SysRoleMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.mgl.bean.sys.SysRole">
+        <id column="id" property="id" />
+        <result column="name" property="name" />
+        <result column="descrition" property="descrition" />
+        <result column="creater_id" property="createrId" />
+        <result column="create_time" property="createTime" />
+        <result column="update_time" property="updateTime" />
+        <result column="del_status" property="delStatus" />
+        <result column="status" property="status" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, name, descrition, creater_id, create_time, update_time, del_status, status
+    </sql>
+
+    <!--获取列表-->
+    <select id="getRoleList" resultType="com.mgl.bean.sys.dto.SysRoleListDto">
+        SELECT a.*,GROUP_CONCAT(b.name) AS permissions
+        FROM sys_role a
+        LEFT JOIN sys_role_menu c
+        ON a.id=c.`role_id`
+        LEFT JOIN sys_menu b
+        ON c.`menu_id` = b.`id`
+        WHERE
+        a.del_status=1
+        AND a.status = 1
+        <if test="adminIds !=null and adminIds.size>0">
+            AND
+            <foreach collection="adminIds" item="id" open="a.creater_id in(" close=")" separator=",">
+                ${id}
+            </foreach>
+        </if>
+        GROUP BY c.`role_id`
+        order by a.create_time desc
+    </select>
+</mapper>

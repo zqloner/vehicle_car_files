@@ -1,0 +1,41 @@
+.chart{
+    margin: 30px 0px;
+}
+.chart .row{
+    margin-bottom: 30px;
+}
+.chart .row .col-xs-4{
+    text-align: center;
+}
+.legend {
+    margin-bottom: 40px;
+}
+.chart .form-control-static{
+    padding: 0px;
+    min-height: 24px;
+    font-weight: 900;
+}
+.br-wrapper .br-widget a {
+    display: block;
+    width: 18px;
+    height: 22px;
+    float: left;
+    margin: 0px 0.8%;
+    outline: 1px dashed #CCCCCC;
+    text-align: center;
+}
+.br-wrapper .br-widget a.br-selected {
+    outline: 1px solid #ff0000;
+}
+.br-wrapper .br-widget a.br-active,
+.br-wrapper .br-widget a.br-selected {
+    background-color: #ff0000;
+}
+.br-wrapper .br-widget .br-current-rating {
+    height: 22px;
+    line-height: 22px;
+    font-size: 14px;
+    float: right;
+    padding:0px 10px;
+    color: #ff0000;
+}

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>管理员账户</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="/libs/layui/css/layui.css" media="all"/>
+    <link rel="stylesheet" href="/css/common.css" media="all" />
+    <link rel="stylesheet" href="/css/administratorAccount.css" media="all" />
+</head>
+<body class="childrenBody">
+<#if userId??>
+<input type="hidden" name="userId" value="${userId}">
+</#if>
+<!--路径导航-->
+<div class="common">
+	<span class="layui-breadcrumb">
+		<a href="javascript:;">当前位置</a>
+		<span lay-separator="">：</span>
+		<a href="javascript:;">账户管理</a>
+		<span lay-separator="">/</span>
+		<a href="javascript:;"><cite>管理员账户</cite></a>
+	</span>
+</div>
+<div class="layui-tab layui-tab-brief" lay-filter="docDemoTabBrief">
+    <ul class="layui-tab-title">
+        <li class="layui-this">角色设置</li>
+        <li>管理员账户</li>
+    </ul>
+    <div class="layui-tab-content">
+        <!--角色设置-->
+        <div class="layui-tab-item layui-show">
+            <!--表格内容-->
+            <div class="news_list">
+                <button type="reset" class="layui-btn layui-btn-normal" id="addition"><i class="layui-icon">&#xe654;</i>添加</button>
+            </div>
+            <table class="layui-table" lay-filter="test" id="table" lay-data="{height: 'full-200'}"></table>
+            <div id="page" class="page"></div>
+        </div>
+        <!--管理员账户-->
+        <div class="layui-tab-item">
+            <!--表单查询-->
+            <form class="layui-form" action="">
+                <div class="layui-form-item">
+                    <div class="layui-inline">
+                        <label class="layui-form-label">关键字：</label>
+                        <div class="layui-input-inline input_wide">
+                            <input type="text" name="username" placeholder="请输入账号、姓名、手机号" autocomplete="off" class="layui-input">
+                        </div>
+                    </div>
+                    <div class="layui-inline">
+                        <label class="layui-form-label">角色名称：</label>
+                        <div class="layui-input-inline input_medium">
+                            <select name="roleId">
+
+                            </select>
+                        </div>
+                    </div>
+                    <div class="layui-inline">
+                        <label class="layui-form-label">创建时间：</label>
+                        <div class="layui-input-inline input_medium">
+                            <input type="text" name="start" class="layui-input laydate" placeholder="请选择" autocomplete="off" readonly>
+                        </div>
+                        <div class="layui-form-mid">-</div>
+                        <div class="layui-input-inline input_medium">
+                            <input type="text" name="end" class="layui-input laydate" placeholder="请选择" autocomplete="off" readonly>
+                        </div>
+                    </div>
+                    <button class="layui-btn layui-btn-normal" lay-submit="" lay-filter="addNews">查询</button>
+                </div>
+            </form>
+            <!--表格内容-->
+            <div class="news_list">
+                <button type="reset" class="layui-btn layui-btn-normal" id="addAccount"><i class="layui-icon">&#xe654;</i>添加管理员</button>
+            </div>
+            <table class="layui-table" lay-filter="test1" id="table1" lay-data="{height: 'full-200'}"></table>
+            <div id="page1" class="page"></div>
+        </div>
+    </div>
+</div>
+<!--添加角色-->
+<div id="addRoles" style="display: none;">
+    <form class="layui-form addRoles_form" lay-filter="addRoles" action="">
+        <div class="layui-form-item">
+            <label class="layui-form-label">角色名称：</label>
+            <div class="layui-input-block">
+                <input type="text" name="roleName" placeholder="请输入名称" lay-verify="required" class="layui-input"></input>
+                <!--<select name="roleName">-->
+                    <!--<option value=""></option>-->
+                    <!--<option value="0">写作</option>-->
+                    <!--<option value="1">阅读</option>-->
+                    <!--<option value="2">游戏</option>-->
+                    <!--<option value="3">音乐</option>-->
+                    <!--<option value="4">旅行</option>-->
+                <!--</select>-->
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">角色描述：</label>
+            <div class="layui-input-block">
+                <textarea name="description" placeholder="请输入内容" class="layui-textarea"></textarea>
+            </div>
+        </div>
+        <div class="layui-form-item">
+
+            <label class="layui-form-label">角色权限：</label>
+            <div class="layui-input-block" id="myMenus" lay-verify="myPerm">
+                <!--<div class="layui-input-inline">-->
+                    <!--<input type="checkbox" name="checked1" lay-skin="primary" title="账户管理">-->
+                <!--</div>-->
+                <!--<div class="layui-form-item">-->
+                    <!--<div class="layui-input-block">-->
+                        <!--<input type="checkbox" name="checked1[1]" lay-skin="primary" title="管理员账户">-->
+                        <!--<input type="checkbox" name="checked1[1]" lay-skin="primary" title="训练方案">-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="layui-input-inline">-->
+                    <!--<input type="checkbox" name="checked2" lay-skin="primary" title="任务管理">-->
+                <!--</div>-->
+                <!--<div class="layui-form-item">-->
+                    <!--<div class="layui-input-block">-->
+                        <!--<input type="checkbox" name="checked2[1]" lay-skin="primary" title="布置任务">-->
+                        <!--<input type="checkbox" name="checked2[2]" lay-skin="primary" title="任务记录">-->
+                        <!--<input type="checkbox" name="checked2[3]" lay-skin="primary" title="压缩包下载">-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="layui-input-inline">-->
+                    <!--<input type="checkbox" name="checked3" lay-skin="primary" title="数据导入">-->
+                <!--</div>-->
+                <!--<div class="layui-form-item">-->
+                    <!--<div class="layui-input-block">-->
+                        <!--<input type="checkbox" name="checked3[1]" lay-skin="primary" title="身体基础数据">-->
+                        <!--<input type="checkbox" name="checked3[2]" lay-skin="primary" title="触觉反馈数据">-->
+                        <!--<input type="checkbox" name="checked3[3]" lay-skin="primary" title="日常锻炼数据">-->
+                        <!--<input type="checkbox" name="checked3[4]" lay-skin="primary" title="比武数据">-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="layui-input-inline">-->
+                    <!--<input type="checkbox" name="checked4" lay-skin="primary" title="档案管理">-->
+                <!--</div>-->
+                <!--<div class="layui-form-item">-->
+                    <!--<div class="layui-input-block">-->
+                        <!--<input type="checkbox" name="checked4[1]" lay-skin="primary" title="基础指标档案">-->
+                        <!--<input type="checkbox" name="checked4[2]" lay-skin="primary" title="综合档案">-->
+                    <!--</div>-->
+                <!--</div>-->
+            </div>
+        </div>
+        <div class="layui-form-item center_btn">
+            <button type="button" class="layui-btn layui-btn-primary cancel">取消</button>
+            <button class="layui-btn layui-btn-normal" lay-submit="" lay-filter="confirm" name="sysRoleSureBtn">确认</button>
+        </div>
+    </form>
+</div>
+<!--添加管理员-->
+<div id="addManager" style="display: none;">
+    <form class="layui-form addRoles_form" lay-filter="addManager" action="">
+        <div class="layui-form-item">
+            <label class="layui-form-label">管理员账号：</label>
+            <div class="layui-input-block">
+                <input type="text" name="username" class="layui-input" placeholder="请输入账号" lay-verify="adminusercount" autocomplete="off">
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">账号密码：</label>
+            <div class="layui-input-block">
+                <div class="layui-input-inline input_wide">
+                    <input type="password" name="password" class="layui-input" placeholder="请输入密码" autocomplete="off">
+                </div>
+                <div class="layui-form-mid">密码默认111111</div>
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">管理员角色：</label>
+            <div class="layui-input-block">
+                <select name="roleId" id="myRoles" lay-verify="required">
+                    <option value=""></option>
+                    <option value="0">数据管理员</option>
+                    <option value="1">阅读</option>
+                    <option value="2">游戏</option>
+                    <option value="3">音乐</option>
+                    <option value="4">旅行</option>
+                </select>
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">管理员姓名：</label>
+            <div class="layui-input-block">
+                <input type="text" name="name" class="layui-input" lay-verify="required" placeholder="请输入姓名" autocomplete="off">
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">管理员手机号：</label>
+            <div class="layui-input-block">
+                <input type="text" name="phoneNumber" class="layui-input" placeholder="请输入手机号" autocomplete="off" lay-verify="phone">
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">管理员邮箱：</label>
+            <div class="layui-input-block">
+                <input type="text" name="email" class="layui-input" placeholder="请输入邮箱" autocomplete="off" lay-verify="email">
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">备注：</label>
+            <div class="layui-input-block">
+                <textarea name="descrition" placeholder="请输入内容" class="layui-textarea"></textarea>
+            </div>
+        </div>
+        <div class="layui-form-item center_btn">
+            <button type="button" class="layui-btn layui-btn-primary cancel">取消</button>
+            <button class="layui-btn layui-btn-normal" lay-submit="" lay-filter="accountConfirm">确认</button>
+        </div>
+    </form>
+</div>
+<script type="text/javascript" src="/libs/layui/layui.js"></script>
+<script type="text/javascript" src="/js/accountManagement/administratorAccount.js"></script>
+<script type="text/javascript" src="/utils/md5.js"></script>
+</body>
+</html>

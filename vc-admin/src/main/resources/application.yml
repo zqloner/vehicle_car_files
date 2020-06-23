@@ -1,0 +1,50 @@
+server:
+  port: 8800
+  servlet:
+    context-path: /
+
+spring:
+  profiles:
+    active: dev #默认为开发环境
+  freemarker:
+    # 模板内容类型
+    request-context-attribute: request
+    suffix: .html
+    content-type: text/html
+    enabled: true
+    cache: false
+    template-loader-path: classpath:/templates/   # 模板位置
+    settings:
+      number_format:  '0.##'
+    devtools:
+      restart:
+        enabled: true    #热部署生效
+        additional-paths: src/main/java
+        freemarker:
+          cache: false    #页面不加载缓存，修改即时生效
+    http:
+      encoding:
+        force-response: true
+
+#日志生成目录
+logging:
+  level:
+    root: info #日志配置DEBUG,INFO,WARN,ERROR
+    com.brightease.bju: debug
+    org.springframework: WARN
+    org.spring.springboot.dao: info
+  config: classpath:logback-boot.xml
+
+#mybatis-plus
+mybatis-plus:
+  mapper-locations: classpath:mapper/*/*.xml
+  type-aliases-package: com.mgl.bean.*
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+shiro:
+  login-url: /login
+  success-url: /main
+  unauthorized-url: /403
+  cookie-name: MANAGESESSIONID
+  timeout: 7200000

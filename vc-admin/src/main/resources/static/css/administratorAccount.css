@@ -1,0 +1,20 @@
+.layui-tab{margin: 0;}
+.layui-tab-title{height: 45px;padding: 15px 25px 0;background-color: #fff;}
+.layui-tab-title li{line-height: 45px;padding: 0;margin-right: 30px;}
+.layui-tab-brief>.layui-tab-title .layui-this{color: #1890ff;}
+.layui-tab-title .layui-this:after{height: 46px;}
+.layui-tab-brief>.layui-tab-more li.layui-this:after, .layui-tab-brief>.layui-tab-title .layui-this:after{border-color:  #1890ff;}
+.layui-tab-content {padding: 25px;}
+.layui-tab-item {background-color: #fff;padding: 20px 30px;}
+/*添加角色*/
+.addRoles_form{padding: 20px 0;width: 550px;margin: 0 auto;}
+.layui-input-block{margin-left: 85px;}
+#addManager .layui-input-block{margin-left: 100px;}
+.center_btn{text-align: center;}
+.center_btn .layui-btn{width: 96px;}
+.layui-form-checkbox[lay-skin=primary] span{min-width: 84px;}
+
+.addBatch_form{padding: 20px 30px;}
+.batch_add p{padding: 5px 0;}
+.batch_add .layui-btn-xs{padding: 0;font-size: 14px;}
+.batch_add .layui-form-mid{color: #888;}

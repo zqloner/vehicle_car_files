@@ -1,0 +1,6 @@
+.mar_div tr:first-child{
+    background-color: #7FB1B0;
+}
+.mar_tab tr td:nth-child(2) {
+     color: #333333;
+ }

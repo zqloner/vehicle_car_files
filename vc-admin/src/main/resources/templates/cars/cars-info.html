@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>任务记录</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="../../libs/layui/css/layui.css" media="all"/>
+    <link rel="stylesheet" href="../../css/common.css" media="all" />
+</head>
+<body class="childrenBody">
+<!--路径导航-->
+<div class="common">
+	<span class="layui-breadcrumb">
+		<a href="javascript:;">当前位置</a>
+		<span lay-separator="">：</span>
+		<a href="javascript:;">任务管理</a>
+		<span lay-separator="">/</span>
+		<a href="javascript:;"><cite>任务记录</cite></a>
+	</span>
+</div>
+<div class="subject">
+    <div class="currency">
+        <!--表单查询-->
+        <form class="layui-form" action="">
+            <div class="layui-form-item">
+                <div class="layui-inline">
+                    <label class="layui-form-label">任务类型：</label>
+                    <div class="layui-input-inline input_wide">
+                        <select name="type">
+                            <option value=""></option>
+                            <option value="1">配属选拔</option>
+                            <option value="2">训练提升</option>
+                            <option value="3">日常监测</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="layui-inline">
+                    <label class="layui-form-label">任务名称：</label>
+                    <div class="layui-input-inline input_wide">
+                        <input type="text" name="name" class="layui-input" placeholder="请输入" autocomplete="off">
+                    </div>
+                </div>
+                <!--<div class="layui-inline">
+                    <label class="layui-form-label">任务状态：</label>
+                    <div class="layui-input-inline input_wide">
+                        <select name="missionStatus">
+                            <option value=""></option>
+                            <option value="1">未开始</option>
+                            <option value="2">进行中</option>
+                            <option value="3">已过期</option>
+                        </select>
+                    </div>
+                </div>-->
+                <div class="layui-inline">
+                    <label class="layui-form-label">创建时间：</label>
+                    <div class="layui-input-inline input_medium">
+                        <input type="text" name="startTime" class="layui-input laydate" placeholder="请选择" autocomplete="off" readonly>
+                    </div>
+                    <div class="layui-form-mid">-</div>
+                    <div class="layui-input-inline input_medium">
+                        <input type="text" name="endTime" class="layui-input laydate" placeholder="请选择" autocomplete="off" readonly>
+                    </div>
+                </div>
+                <button class="layui-btn layui-btn-normal" lay-submit="" lay-filter="addNews">查找</button>
+            </div>
+           <!-- <div class="layui-form-item">
+
+            </div>-->
+        </form>
+        <!--表格内容-->
+        <div class="news_list">
+            <button type="reset" class="layui-btn layui-btn-normal" id="newTask"><i class="layui-icon">&#xe654;</i>新建任务</button>
+            <button type="reset" class="layui-btn layui-btn-primary" id="exportTask">导出任务列表</button>
+        </div>
+        <table class="layui-table" lay-filter="test" id="table" lay-data="{height: 'full-200'}"></table>
+        <div id="page" class="page"></div>
+    </div>
+</div>
+<script type="text/javascript" src="/libs/layui/layui.js"></script>
+<script type="text/javascript" src="/js/cars/cars-info.js"></script>
+</body>
+</html>

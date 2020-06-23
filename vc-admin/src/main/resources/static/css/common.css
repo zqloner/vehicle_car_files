@@ -1,0 +1,71 @@
+.subject{padding: 25px;box-sizing: border-box;}
+.currency{background-color: #fff;padding: 20px 30px;}
+.tableTitle{font-size: 24px;font-weight: 600;}
+/*路径导航*/
+.common{box-sizing: border-box;height: 54px;line-height: 54px;width: 100%;background-color: #fff;padding: 0 30px;}
+.common .layui-breadcrumb{visibility: visible;}
+.layui-breadcrumb a{margin: 0 5px;cursor: default;}
+.layui-breadcrumb .pointer{cursor: pointer !important;}
+.layui-breadcrumb a:hover{color:#999 !important;}
+.layui-breadcrumb span[lay-separator]{margin: 0;}
+/*表单*/
+.layui-form-item{margin-bottom: 20px;}
+.layui-form-item .layui-inline{margin-bottom:0;margin-right:0;}
+.layui-form-label{padding: 6px 0;width: inherit;text-align: left;}
+.layui-form-mid{padding: 6px 0!important;margin-right: 15px;}
+.layui-form-item .layui-input-inline{margin-right: 15px;}
+.layui-form-item .input_wide{width: 220px;}
+.layui-form-item .input_medium{width: 140px;}
+.layui-form-item .input_narrow{width: 120px;}
+.layui-input, .layui-select{height: 32px;line-height: 32px;border-radius: 4px;}
+.layui-textarea{border-radius: 4px;}
+.layui-form-select dl{max-height: 120px;}
+.layui-form-select dl dd.layui-this{background-color:#1890ff;}
+.layui-form-radio>i:hover, .layui-form-radioed>i{color: #1890ff;}
+/*表格*/
+.layui-table-view{border-width: 0 0 1px 0;width: 100%;}
+.layui-table-view .layui-table{width: 100%;}
+.layui-table-view .layui-table[lay-skin=line]{border-width: 0;}
+.layui-table thead tr{background-color: #fafafa;}
+.layui-table td, .layui-table th{border-color: #e8e8e8;}
+.layui-table-view .layui-table td, .layui-table-view .layui-table th{padding: 12px 0;}
+.layui-table tbody tr:hover,.layui-table-hover,.layui-table-click{background-color: #fff;}
+.layui-form-checked[lay-skin=primary] i{border-color:#1890ff !important;background-color:#1890ff;}
+.layui-form-checkbox[lay-skin=primary]:hover i{border-color:#1890ff !important;}
+.layui-table-cell{padding: 0 5px;}
+.layui-table, .layui-table-view {margin: 15px 0;}
+
+/*分页样式*/
+.page{text-align: right;margin-top: 20px;}
+.layui-laypage a,.layui-laypage .layui-laypage-spr{border-radius: 4px;padding: 0 11px;margin: 0 5px 5px 0;}
+.layui-laypage .layui-laypage-curr{padding: 0 12px;margin: 0 5px 5px 0;border-radius: 4px;height: 28px;line-height: 28px;}
+.layui-laypage .layui-laypage-curr .layui-laypage-em{border-radius: 4px;}
+.layui-laypage select,.layui-laypage input,.layui-laypage button{border-radius: 4px;}
+.layui-laypage button, .layui-laypage input{line-height: 28px;}
+.layui-laypage a:hover{color: #005CA7;}
+.layui-laypage span{background-color: transparent;}
+.layui-table-page{text-align: right;}
+/*弹框*/
+.layui-layer-title{background-color: #fff !important;font-weight: 600;}
+/*btn*/
+.layui-btn{height: 32px;line-height: 32px;border-radius: 6px;}
+.layui-btn-xs{height: 22px;line-height: 22px;background-color: transparent;color: #1890ff;}
+.layui-btn-xs:hover{color: #1890ff;}
+.layui-btn-xs+.layui-btn-xs{border-left: 1px solid #e8e8e8;margin-left: 0; }
+.layui-btn-primary:hover{border-color: #1890ff;color: #1890ff;}
+.notClickable{color: #999;pointer-events:none;}
+
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+::-webkit-scrollbar {width: 8px;height: 8px;background-color: #f0f2f5;}
+/*定义滚动条轨道 内阴影+圆角*/
+::-webkit-scrollbar-track {
+//-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+/*定义滑块 内阴影+圆角*/
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+//-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #f1f1f1;
+}

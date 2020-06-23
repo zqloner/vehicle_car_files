@@ -1,0 +1,32 @@
+body,ul,li,p,h1,h2,h3,h4,h5,h6,img,br,hr,table,tr,td,dl,dt,dd,form,button,label,select{
+    margin: 0;
+    padding: 0;
+}
+body {
+    color: #333;
+    font-family: "Microsoft Yahei","微软雅黑",Tahoma,Arial;
+    font-size: 15px;
+    width: 100%;
+    background-color: #fff;
+}
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.clear {
+    clear: both;
+    font-size: 0px;
+}
+ul,li {
+    list-style: none;
+}
+img {
+    border: none;
+}
+a {
+    text-decoration: none;
+    color: #555;
+}
+.indent{
+    text-indent: 8px;
+}

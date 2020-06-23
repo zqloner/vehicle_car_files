@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mgl.dao.sys.SysMenuMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.mgl.bean.sys.SysMenu">
+        <id column="id" property="id" />
+        <result column="name" property="name" />
+        <result column="code" property="code" />
+        <result column="url" property="url" />
+        <result column="pid" property="pid" />
+        <result column="descrition" property="descrition" />
+        <result column="posit" property="posit" />
+        <result column="status" property="status" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, name, code, url, pid, descrition, posit, status
+    </sql>
+
+    <!--角色添加权限的渲染-->
+    <resultMap id="menuRelation" type="com.mgl.bean.sys.dto.SysMenuDto">
+        <id column="sid" property="id"></id>
+        <result column="sname" property="name"></result>
+        <result column="spid" property="pid"></result>
+        <collection property="children" ofType="com.mgl.bean.sys.dto.SysMenuDto">
+            <id column="cid" property="id"></id>
+            <result column="cname" property="name"></result>
+            <result column="cpid" property="pid"></result>
+        </collection>
+    </resultMap>
+
+    <select id="getAllMenuList" resultMap="menuRelation">
+        SELECT
+          s.id sid,
+          s.name sname,
+          s.pid spid,
+          c.id cid,
+          c.name cname,
+          c.pid cpid
+        FROM
+          sys_menu s,
+          sys_menu c
+        WHERE s.id = c.pid
+          AND s.status = 1
+          AND c.`status` = 1
+          AND s.pid = -1
+    </select>
+</mapper>

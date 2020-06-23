@@ -1,0 +1,21 @@
+.state{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.state p span{
+    width: 26%;
+    display: inline-block;
+    line-height: 1;
+}
+.state p:nth-child(1) span:nth-child(1){
+    border-left: 20px solid #336699;
+}
+.state p:nth-child(1) span:nth-child(2){
+    border-left: 20px solid #669900;
+}
+.state p:nth-child(2) span:nth-child(1){
+    border-left: 20px solid #FF6600;
+}
+.state p:nth-child(2) span:nth-child(2){
+    border-left: 20px solid #990000;
+}

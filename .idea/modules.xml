@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/vc-admin/vc-admin.iml" filepath="$PROJECT_DIR$/vc-admin/vc-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vc-common/vc-common.iml" filepath="$PROJECT_DIR$/vc-common/vc-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vc-mbpg/vc-mbpg.iml" filepath="$PROJECT_DIR$/vc-mbpg/vc-mbpg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vc-pub/vc-pub.iml" filepath="$PROJECT_DIR$/vc-pub/vc-pub.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vehicle_car_files.iml" filepath="$PROJECT_DIR$/vehicle_car_files.iml" />
+    </modules>
+  </component>
+</project>

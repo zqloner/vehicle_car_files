@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mgl.dao.sys.SysAdminUserMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.mgl.bean.sys.SysAdminUser">
+        <id column="id" property="id" />
+        <result column="username" property="username" />
+        <result column="password" property="password" />
+        <result column="name" property="name" />
+        <result column="phone_number" property="phoneNumber" />
+        <result column="creater_id" property="createrId" />
+        <result column="descrition" property="descrition" />
+        <result column="code" property="code" />
+        <result column="create_time" property="createTime" />
+        <result column="update_time" property="updateTime" />
+        <result column="del_status" property="delStatus" />
+        <result column="status" property="status" />
+        <result column="email" property="email" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, username, password, name, phone_number, creater_id, descrition, code, create_time, update_time, del_status, status, email
+    </sql>
+
+    <!--获取管理员账号列表-->
+    <select id="getSysUserList" resultType="com.mgl.bean.sys.dto.SysAdminUserListDto">
+        SELECT sdu.*,sr.name AS role_name
+        FROM `sys_admin_user` sdu
+        LEFT JOIN `sys_user_role` sur
+        ON sdu.id = sur.user_id
+        LEFT JOIN sys_role sr
+        ON sur.role_id = sr.id
+        WHERE sdu.del_status = 1
+        AND sdu.status = 1
+        <if test="username !=null and username !=''">
+            AND (sdu.username like '%${username}%' or
+            sdu.name like '%${username}%' or
+            sdu.phone_number like '%${username}%')
+        </if>
+        <if test="code !=null and code !=''">
+            AND sdu.code like '${code}%'
+            AND length(sdu.code) <![CDATA[ > ]]> length(#{code})
+        </if>
+        <if test="roleId !=null and roleId !=''">
+            AND sr.id = #{roleId}
+        </if>
+        <if test="start !=null and start !=''">
+            AND sdu.create_time <![CDATA[ >= ]]> #{start}
+        </if>
+        <if test="end !=null and end !=''">
+            AND sdu.create_time <![CDATA[ <= ]]> #{end}
+        </if>
+        order by sdu.create_time desc
+    </select>
+
+    <!--查看详情-->
+    <select id="getSysUserDetailById" resultType="com.mgl.bean.sys.dto.SysAdminUserListDto">
+        SELECT sdu.*,sr.name AS role_name,sr.id AS role_id
+        FROM `sys_admin_user` sdu
+        LEFT JOIN `sys_user_role` sur
+        ON sdu.id = sur.user_id
+        LEFT JOIN sys_role sr
+        ON sur.role_id = sr.id
+        WHERE sdu.del_status = 1
+        AND sdu.status = 1
+        AND sdu.id = #{id}
+    </select>
+
+    <!--查看最大code-->
+    <select id="getMaxCode" resultType="string">
+        SELECT
+          MAX(`code`) AS `code`
+        FROM
+          sys_admin_user
+        WHERE CODE like '%${code}%'
+          AND LENGTH(`code`) = #{length}
+    </select>
+    <select id="getMenuByUserId" resultType="com.mgl.bean.sys.SysMenu">
+         SELECT
+            sm.*
+          FROM
+            sys_admin_user sd,
+            sys_role sr,
+            sys_role_menu srm,
+            sys_menu sm,
+            sys_user_role sur
+          WHERE sd.id = sur.user_id
+            AND sur.role_id = sr.id
+            AND sr.id = srm.role_id
+            AND srm.menu_id = sm.id
+            AND sd.del_status = 1
+            AND sd.status = 1
+            AND sr.del_status = 1
+            AND sr.status = 1
+            AND sm.status = 1
+            AND sd.id = #{userid}
+            order by sm.posit
+    </select>
+</mapper>

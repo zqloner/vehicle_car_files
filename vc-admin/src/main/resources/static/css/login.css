@@ -1,0 +1,48 @@
+*{margin: 0;padding: 0;}
+.loginBody{
+    margin: 0 auto;
+    min-width: 1210px;
+    max-width: 1920px;
+    max-height: 1080px;
+}
+.loginContent{
+    width: 100%;
+    max-height: 100%;
+    min-height: 100%;
+    background-image: url("/img/bg.png");
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    position: relative;
+}
+.loginHtml{ height:100%;}
+.title{text-align: center;padding-top: 90px;font-size: 30px;color: #fff;font-weight: 600;}
+.title small{font-size: 18px;margin-left: 20px;}
+.register{text-align: center;font-size: 24px;color: #fff;margin-bottom: 35px;letter-spacing:18px}
+.loginContent form.layui-form{ padding: 50px 25px;width:420px;height: 380px; position:absolute; left:50%; top:55%; margin:-190px 0 0 -210px;
+    -webkit-box-sizing:border-box;-moz-box-sizing:border-box; -o-box-sizing:border-box;background-color: rgba(255,255,255,.3);
+    border-radius: 8px;}
+.loginContent .layui-form-item{ position:relative;margin-bottom: 24px;}
+.loginContent .layui-form-item span{ display: inline-block;width: 16px;height: 16px;position: absolute;top: 11px;left: 8px;}
+.loginContent .layui-form-item .user_icon{ background: url("/img/user.png")}
+.loginContent .layui-form-item .pass_icon{background: url("/img/pass.png")}
+.loginContent .layui-form-item .layui-block{width: 100%;margin-top: 16px; background-color: #1890ff;border-radius: 4px;letter-spacing:6px}
+.loginContent .layui-input{border-radius: 4px;padding-left: 30px;border-color:#d9d9d9;color: #1890ff;}
+.loginContent .layui-input::-webkit-input-placeholder{color:#757575;}
+.loginContent .layui-input::-moz-placeholder{color:#757575;}
+.loginContent .layui-input:-ms-input-placeholder{color:#757575;}
+.loginContent .layui-input::placeholder{color:#757575;}
+.loginContent .layui-form-item.layui-input-focus input{ border-color:#1890ff !important;}
+.loginContent .layui-input-focus .layui-input::-webkit-input-placeholder{color:#757575;}
+.loginContent .layui-input-focus .layui-input::-moz-placeholder{color:#757575;}
+.loginContent .layui-input-focus .layui-input:-ms-input-placeholder{color:#757575;}
+.loginContent .layui-input-focus .layui-input::placeholder{color:#757575;}
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+::-webkit-scrollbar {width: 8px;height: 8px;background-color: rgba(74, 212, 254, 0.1);}
+/*定义滚动条轨道 内阴影+圆角*/
+::-webkit-scrollbar-track {//-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);border-radius: 10px;background-color: rgba(74, 212, 254, 0.11);}
+/*定义滑块 内阴影+圆角*/
+::-webkit-scrollbar-thumb {border-radius: 10px;//-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);background-color: rgba(74, 212, 254, 0.33);}

@@ -1,0 +1,19 @@
+.mar_div .mar_tab tr:nth-child(1){
+    background:rgb(26,188,254);
+    background:-moz-linear-gradient(top,rgba(26,188,254,0.6),rgba(245, 255, 255, 1));/*Firefox*/
+    background:-webkit-gradient(linear, 0 0, 0 bottom, from(rgba(26,188,254,0.6)), to(rgba(245, 255, 255, 1)));/*chrome Safari*/
+    background:-o-linear-gradient(top, rgba(26,188,254,0.6),rgba(245, 255, 255, 1));/*Opera11*/
+}
+.mar_tab{
+    font-size: 12px;
+}
+.mar_tab tr td:nth-child(2) {
+    color: #666;
+}
+.mar_tab tr td:nth-last-child(4){
+    text-align: left;
+    padding-left: 10px;
+}
+.trBackgroundBDEEFF{
+    background-color: #BDEEFF;
+}

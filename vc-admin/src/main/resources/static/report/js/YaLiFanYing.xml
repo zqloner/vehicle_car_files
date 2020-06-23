@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<examination id="6" name="压力反应">
+  <questions id="1" sex="0" introduction="请认真阅读下面的每一道题，并根据您最近一个月的真实情况判断每道题与您的符合程度，并从五个选项中选择一个最恰当的选项。">
+    <question id="1" subject="食欲不振" option="1" />
+    <question id="2" subject="坐立不安" option="1" />
+    <question id="3" subject="责备自己或别人" option="1" />
+    <question id="4" subject="不能专心做事" option="1" />
+    <question id="5" subject="感到忧愁" option="1" />
+    <question id="6" subject="睡一大觉后还觉得疲劳" option="1" />
+    <question id="7" subject="容易心烦意乱" option="1" />
+    <question id="8" subject="容易发怒" option="1" />
+    <question id="9" subject="心慌" option="1" />
+    <question id="10" subject="感到胸闷、憋气" option="1" />
+    <question id="11" subject="感觉未来没有希望" option="1" />
+    <question id="12" subject="食量明显增大" option="1" />
+    <question id="13" subject="对很多事情过分担心" option="1" />
+    <question id="14" subject="在很多事情上依赖别人" option="1" />
+    <question id="15" subject="考虑问题理不清头绪" option="1" />
+    <question id="16" subject="容易发牢骚" option="1" />
+    <question id="17" subject="腹泻或便秘" option="1" />
+    <question id="18" subject="容易感冒" option="1" />
+    <question id="19" subject="头痛" option="1" />
+    <question id="20" subject="反应变迟钝了" option="1" />
+    <question id="21" subject="性能力下降" option="1" />
+    <question id="22" subject="觉得自己很没用" option="1" />
+    <question id="23" subject="不爱说话" option="1" />
+    <question id="24" subject="吸烟量增加" option="1" />
+    <question id="25" subject="眼睛容易疲劳" option="1" />
+    <question id="26" subject="觉得生活很没意思" option="1" />
+    <question id="27" subject="陪伴家人的时间明显减少" option="1" />
+    <question id="28" subject="一做事就觉得累" option="1" />
+    <question id="29" subject="对性失去兴趣" option="1" />
+    <question id="30" subject="情绪低落" option="1" />
+    <question id="31" subject="胃部不舒服" option="1" />
+    <question id="32" subject="对以前喜欢做的事情提不起兴趣" option="1" />
+    <question id="33" subject="感到胸痛" option="1" />
+    <question id="34" subject="嗓子疼" option="1" />
+    <question id="35" subject="无缘无故地感到害怕" option="1" />
+    <question id="36" subject="有自虐行为" option="1" />
+    <question id="37" subject="耳鸣" option="1" />
+    <question id="38" subject="反复想要不要结束生命" option="1" />
+    <question id="39" subject="工作中出现失误，就觉得是自己的问题" option="1" />
+    <question id="40" subject="口腔溃疡" option="1" />
+    <question id="41" subject="手脚发冷" option="1" />
+    <question id="42" subject="记忆力下降" option="1" />
+    <question id="43" subject="有快要崩溃的感觉" option="1" />
+    <question id="44" subject="肩、颈、背部僵硬酸痛" option="1" />
+    <question id="45" subject="想摔东西" option="1" />
+    <question id="46" subject="想哭" option="1" />
+    <question id="47" subject="睡得不好" option="1" />
+    <question id="48" subject="高兴不起来" option="1" />
+    <question id="49" subject="腹部胀痛" option="1" />
+    <question id="50" subject="容易紧张" option="1" />
+    <question id="51" subject="对别人或小动物有粗暴行为" option="1" />
+    <question id="52" subject="感到孤独" option="1" />
+    <question id="53" subject="不知如何应付生活困境" option="1" />
+    <question id="54" subject="觉得头脑没有平常那样清楚" option="1" />
+    <question id="55" subject="觉得自己是个无用的人，没人需要我" option="1" />
+    <question id="56" subject="觉得做人越来越没有意思" option="1" />
+    <question id="57" subject="相信即使个人努力，也不能获得成功" option="1" />
+    <question id="58" subject="神经过敏中不踏实" option="1" />
+    <question id="59" subject="容易衰弱和疲乏" option="1" />
+    <question id="60" subject="饮酒量加大" option="1" />
+    <question id="61" subject="有时感到疲劳或体力不支" option="1" />
+    <question id="62" subject="有时会为一般的工作或生活感到困扰或焦虑" option="1" />
+    <question id="63" subject="注意力不如以前那么集中" option="1" />
+  </questions>
+  <questions id="2" sex="1" introduction="请认真阅读下面的每一道题，并根据您最近一个月的真实情况判断每道题与您的符合程度，并从五个选项中选择一个最恰当的选项。">
+    <question id="1" subject="食欲不振1" option="1" />
+    <question id="2" subject="坐立不安" option="1" />
+    <question id="3" subject="责备自己或别人" option="1" />
+    <question id="4" subject="不能专心做事" option="1" />
+    <question id="5" subject="感到忧愁" option="1" />
+    <question id="6" subject="睡一大觉后还觉得疲劳" option="1" />
+    <question id="7" subject="容烦意乱" option="1" />
+    <question id="8" subject="容易发怒" option="1" />
+    <question id="9" subject="心慌" option="1" />
+    <question id="10" subject="感到胸闷、憋气" option="1" />
+    <question id="11" subject="感觉未来没有希望" option="1" />
+    <question id="12" subject="食量明显增大" option="1" />
+    <question id="13" subject="对很多事情过分担心" option="1" />
+    <question id="14" subject="在很多事情上依赖别人" option="1" />
+    <question id="15" subject="考虑问题理不清头绪" option="1" />
+    <question id="16" subject="容易发牢骚" option="1" />
+    <question id="17" subject="腹泻或便秘" option="1" />
+    <question id="18" subject="容易感冒" option="1" />
+    <question id="19" subject="头痛" option="1" />
+    <question id="20" subject="反应变迟钝了" option="1" />
+    <question id="22" subject="觉得自己很没用" option="1" />
+    <question id="23" subject="不爱说话" option="1" />
+    <question id="24" subject="吸烟量增加" option="1" />
+    <question id="25" subject="眼睛容易疲劳" option="1" />
+    <question id="26" subject="觉得生活很没意思" option="1" />
+    <question id="27" subject="陪伴家人的时间明显减少" option="1" />
+    <question id="28" subject="一做事就觉得累" option="1" />
+    <question id="29" subject="对性失去兴趣" option="1" />
+    <question id="30" subject="情绪低落" option="1" />
+    <question id="31" subject="胃部不舒服" option="1" />
+    <question id="32" subject="对以前喜欢做的事情提不起兴趣" option="1" />
+    <question id="33" subject="感到胸痛" option="1" />
+    <question id="34" subject="嗓子疼" option="1" />
+    <question id="35" subject="无缘无故地感到害怕" option="1" />
+    <question id="36" subject="有自虐行为" option="1" />
+    <question id="37" subject="耳鸣" option="1" />
+    <question id="38" subject="反复想要不要结束生命" option="1" />
+    <question id="39" subject="工作中出现失误，就觉得是自己的问题" option="1" />
+    <question id="40" subject="口腔溃疡" option="1" />
+    <question id="41" subject="手脚发冷" option="1" />
+    <question id="42" subject="记忆力下降" option="1" />
+    <question id="43" subject="有快要崩溃的感觉" option="1" />
+    <question id="44" subject="肩、颈、背部僵硬酸痛" option="1" />
+    <question id="45" subject="想摔东西" option="1" />
+    <question id="46" subject="想哭" option="1" />
+    <question id="47" subject="睡得不好" option="1" />
+    <question id="48" subject="高兴不起来" option="1" />
+    <question id="49" subject="腹部胀痛" option="1" />
+    <question id="50" subject="容易紧张" option="1" />
+    <question id="51" subject="对别人或小动物有粗暴行为" option="1" />
+    <question id="51" subject="感到孤独" option="1" />
+    <question id="53" subject="不知如何应付生活困境" option="1" />
+    <question id="54" subject="觉得头脑没有平常那样清楚" option="1" />
+    <question id="55" subject="觉得自己是个无用的人，没人需要我" option="1" />
+    <question id="56" subject="觉得做人越来越没有意思" option="1" />
+    <question id="57" subject="相信即使个人努力，也不能获得成功" option="1" />
+    <question id="58" subject="神经过敏，心中不踏实" option="1" />
+    <question id="59" subject="容易衰弱和疲乏" option="1" />
+    <question id="60" subject="饮酒量加大" option="1" />
+    <question id="61" subject="有时感到疲劳或体力不支" option="1" />
+    <question id="62" subject="有时会为一般的工作或生活感到困扰或焦虑" option="1" />
+    <question id="63" subject="注意力不如以前那么集中" option="1" />
+   </questions>
+    <questions id="3" sex="1" introduction="请认真阅读下面的每一道题，并根据您最近一个月的真实情况判断每道题与您的符合程度，并从五个选项中选择一个最恰当的选项。">
+        <question id="1" subject="食欲不振1" option="1" />
+        <question id="2" subject="坐立不安" option="1" />
+        <question id="3" subject="责备自己或别人" option="1" />
+        <question id="4" subject="不能专心做事" option="1" />
+        <question id="5" subject="感到忧愁" option="1" />
+        <question id="6" subject="睡一大觉后还觉得疲劳" option="1" />
+        <question id="7" subject="容易心烦意乱" option="1" />
+        <question id="8" subject="容易发怒" option="1" />
+        <question id="9" subject="心慌" option="1" />
+        <question id="10" subject="感到胸闷、憋气" option="1" />
+        <question id="11" subject="感觉未来没有希望" option="1" />
+        <question id="12" subject="食量明显增大" option="1" />
+        <question id="13" subject="对很多事情过分担心" option="1" />
+        <question id="14" subject="在很多事情上依赖别人" option="1" />
+        <question id="15" subject="考虑问题理不清头绪" option="1" />
+        <question id="16" subject="容易发牢骚" option="1" />
+        <question id="17" subject="腹泻或便秘" option="1" />
+        <question id="18" subject="容易感冒" option="1" />
+        <question id="19" subject="头痛" option="1" />
+        <question id="20" subject="反应变迟钝了" option="1" />
+        <question id="21" subject="月经失调" option="1" maxAge="60" minAge="0" />
+        <question id="22" subject="觉得自己很没用" option="1" />
+        <question id="23" subject="不爱说话" option="1" />
+        <question id="24" subject="吸烟量增加" option="1" />
+        <question id="25" subject="眼睛容易疲劳" option="1" />
+        <question id="26" subject="觉得生活很没意思" option="1" />
+        <question id="27" subject="陪伴家人的时间明显减少" option="1" />
+        <question id="28" subject="一做事就觉得累" option="1" />
+        <question id="29" subject="对性失去兴趣" option="1" />
+        <question id="30" subject="情绪低落" option="1" />
+        <question id="31" subject="胃部不舒服" option="1" />
+        <question id="32" subject="对以前喜欢做的事情提不起兴趣" option="1" />
+        <question id="33" subject="感到胸痛" option="1" />
+        <question id="34" subject="嗓子疼" option="1" />
+        <question id="35" subject="无缘无故地感到害怕" option="1" />
+        <question id="36" subject="有自虐行为" option="1" />
+        <question id="37" subject="耳鸣" option="1" />
+        <question id="38" subject="反复想要不要结束生命" option="1" />
+        <question id="39" subject="工作中出现失误，就觉得是自己的问题" option="1" />
+        <question id="40" subject="口腔溃疡" option="1" />
+        <question id="41" subject="手脚发冷" option="1" />
+        <question id="42" subject="记忆力下降" option="1" />
+        <question id="43" subject="有快要崩溃的感觉" option="1" />
+        <question id="44" subject="肩、颈、背部僵硬酸痛" option="1" />
+        <question id="45" subject="想摔东西" option="1" />
+        <question id="46" subject="想哭" option="1" />
+        <question id="47" subject="睡得不好" option="1" />
+        <question id="48" subject="高兴不起来" option="1" />
+        <question id="49" subject="腹部胀痛" option="1" />
+        <question id="50" subject="容易紧张" option="1" />
+        <question id="51" subject="对别人或小动物有粗暴行为" option="1" />
+        <question id="51" subject="感到孤独" option="1" />
+        <question id="53" subject="不知如何应付生活困境" option="1" />
+        <question id="54" subject="觉得头脑没有平常那样清楚" option="1" />
+        <question id="55" subject="觉得自己是个无用的人，没人需要我" option="1" />
+        <question id="56" subject="觉得做人越来越没有意思" option="1" />
+        <question id="57" subject="相信即使个人努力，也不能获得成功" option="1" />
+        <question id="58" subject="神经过敏，心中不踏实" option="1" />
+        <question id="59" subject="容易衰弱和疲乏" option="1" />
+        <question id="60" subject="饮酒量加大" option="1" />
+        <question id="61" subject="有时感到疲劳或体力不支" option="1" />
+        <question id="62" subject="有时会为一般的工作或生活感到困扰或焦虑" option="1" />
+        <question id="63" subject="注意力不如以前那么集中" option="1" />
+    </questions>
+
+  <!-- 选择项 -->
+  <options>
+    <option id="1">
+      <item id="1" key="A" value="没有" />
+      <item id="2" key="B" value="偶尔" />
+      <item id="3" key="C" value="时常" />
+      <item id="4" key="D" value="常常" />
+      <item id="5" key="E" value="总是" />
+    </option>
+  </options>
+  <!-- 计分规则 -->
+  <rules>
+    <rule id="1">
+      <item optionitem="1" value="0" />
+      <item optionitem="2" value="1" />
+      <item optionitem="3" value="2" />
+      <item optionitem="4" value="3" />
+      <item optionitem="5" value="4" />
+    </rule>
+  </rules>
+  <dimensions>
+    <dimension id="1" name="生理">
+      <item id="1" name="感官系统" childDimension="感觉器官不适感" questions="25,34,37" />
+      <item id="2" name="呼吸系统" childDimension="呼吸系统不适感" questions="10" />
+      <item id="3" name="骨骼肌系统" childDimension="肌肉酸痛感" questions="44" />
+      <item id="4" name="神经系统" childDimension="交感神经系统" questions="41" />
+      <item id="5" name="精力" childDimension="精力减退疲劳感" questions="6,28" />
+      <item id="6" name="免疫系统" childDimension="免疫系统" questions="18,40" />
+      <item id="7" name="睡眠" childDimension="睡眠问题" questions="47" />
+      <item id="8" name="消化系统" childDimension="消化系统不适感" questions="1,17,31,49" />
+      <item id="9" name="心血管系统" childDimension="心血管系统不适感" questions="9,33" />
+      <item id="10" name="性" childDimension="性" questions="21,29" />
+      <item id="11" name="综合" childDimension="综合" questions="19" />
+    </dimension>
+    <dimension id="2" name="情绪">
+      <item id="1" name="抑郁情绪" childDimension="抑郁情绪" questions="5,11,22,26,30,32,38,39,46,48" />
+      <item id="2" name="焦虑情绪" childDimension="焦虑情绪" questions="7,13,35,50" />
+      <item id="3" name="敌意情绪" childDimension="敌意情绪" questions="8" />
+      <item id="4" name="无奈情绪" childDimension="无奈情绪" questions="53" />
+      <item id="5" name="孤独情绪" childDimension="孤独情绪" questions="52" />
+      <item id="6" name="躁动情绪" childDimension="躁动情绪" questions="43" />
+    </dimension>
+    <dimension id="3" name="行为">
+      <item id="1" name="抱怨行为" childDimension="抱怨行为" questions="16" />
+      <item id="2" name="烦躁行为" childDimension="烦躁" questions="2" />
+      <item id="3" name="攻击行为" childDimension="攻击或敌对行为" questions="36,45,51" />
+      <item id="4" name="退缩行为" childDimension="人际互动减少" questions="23,27" />
+      <item id="5" name="依赖行为" childDimension="依赖行为" questions="14" />
+      <item id="6" name="指责行为" childDimension="指责行为" questions="3" />
+      <item id="7" name="转化性行为" childDimension="转化性行为" questions="12,24" />
+    </dimension>
+    <dimension id="4" name="认知">
+      <item id="1" name="认知操作受损" childDimension="注意力不集中\思维不清晰\反应迟钝记忆力下降" questions="4,15,20,42" />
+    </dimension>
+  </dimensions>
+  <!-- 以e开始表示可以等于 -->
+  <grades>
+    <grade id="1" name="生理">
+      <item min="e0" max="e0.05" name="1级" value="1" />
+      <item min="0.05" max="e0.16" name="2级" value="2" />
+      <item min="0.16" max="e0.3" name="3级" value="3" />
+      <item min="0.3" max="e0.45" name="4级" value="4" />
+      <item min="0.45" max="e0.65" name="5级" value="5" />
+      <item min="0.65" max="e0.95" name="6级" value="6" />
+      <item min="0.95" max="e1.3" name="7级" value="7" />
+      <item min="1.3" max="e1.75" name="8级" value="8" />
+      <item min="1.75" max="e4" name="9级" value="9" />
+    </grade>
+    <grade id="2" name="情绪">
+      <item min="e0" max="e0" name="1级" value="1" />
+      <item min="0" max="e0.06" name="2级" value="2" />
+      <item min="0.06" max="e0.17" name="3级" value="3" />
+      <item min="0.17" max="e0.39" name="4级" value="4" />
+      <item min="0.39" max="e0.61" name="5级" value="5" />
+      <item min="0.61" max="e0.94" name="6级" value="6" />
+      <item min="0.94" max="e1.56" name="7级" value="7" />
+      <item min="1.56" max="e2.11" name="8级" value="8" />
+      <item min="2.11" max="e4" name="9级" value="9" />
+    </grade>
+    <grade id="3" name="行为">
+      <item min="e0" max="e0" name="1级" value="1" />
+      <item min="0" max="e0.1" name="2级" value="2" />
+      <item min="0.1" max="e0.2" name="3级" value="3" />
+      <item min="0.2" max="e0.36" name="4级" value="4" />
+      <item min="0.36" max="e0.55" name="5级" value="5" />
+      <item min="0.55" max="e0.82" name="6级" value="6" />
+      <item min="0.82" max="e1.09" name="7级" value="7" />
+      <item min="1.09" max="e1.55" name="8级" value="8" />
+      <item min="1.55" max="e4" name="9级" value="9" />
+    </grade>
+    <grade id="4" name="认知">
+      <item min="e0" max="e0" name="1级" value="1" />
+      <!-- <item min="0" max="0" name="2级"/> -->
+      <item min="0" max="e0.25" name="3级" value="3" />
+      <item min="0.25" max="e0.5" name="4级" value="4" />
+      <item min="0.5" max="e0.75" name="5级" value="5" />
+      <item min="0.75" max="e1.25" name="6级" value="6" />
+      <item min="1.25" max="e1.75" name="7级" value="7" />
+      <item min="1.75" max="e2.5" name="8级" value="8" />
+      <item min="2.5" max="e4" name="9级" value="9" />
+    </grade>
+    <grade id="5" name="总压力等级">
+      <item min="e0" max="e0.09" name="1级" value="1" />
+      <item min="0.09" max="e0.19" name="2级" value="2" />
+      <item min="0.19" max="e0.3" name="3级" value="3" />
+      <item min="0.3" max="e0.43" name="4级" value="4" />
+      <item min="0.43" max="e0.64" name="5级" value="5" />
+      <item min="0.64" max="e0.91" name="6级" value="6" />
+      <item min="0.91" max="e1.32" name="7级" value="7" />
+      <item min="1.32" max="e1.72" name="8级" value="8" />
+      <item min="1.72" max="e4" name="9级" value="9" />
+    </grade>
+  </grades>
+</examination>

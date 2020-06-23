@@ -1,0 +1,26 @@
+.queryForm{background-color: #fff;border-bottom: 1px solid #e9e9e9;}
+.queryForm .tableTitle{padding: 0 35px;}
+.queryForm .layui-form-item{width: 550px;margin: 20px auto;position: relative;}
+.queryForm .layui-form-item .layui-input{height: 40px;line-height: 40px;padding-right: 70px;}
+.queryForm .layui-form-item .layui-btn{width: 70px;height: 40px;line-height: 40px;position:absolute;top: 0;right: 0;
+    border-radius: 0 4px 4px 0;}
+.queryForm .layui-nav{height: 40px;background-color: #fff;padding: 0 30px;}
+.queryForm .layui-nav .layui-nav-item{line-height: 40px;}
+.queryForm .layui-nav li{height: 40px;padding: 0;margin-right: 30px;}
+.layui-nav .layui-nav-item a{color: #333;}
+.layui-nav .layui-nav-item a:hover, .layui-nav .layui-this a{color: #1E9FFF;}
+.layui-nav-bar{height: 2px;top: 38px;background-color: #1E9FFF;}
+.layui-nav .layui-this:after{height: 2px;background-color: #1E9FFF;}
+.layui-badge-dot{margin-right: 5px;}
+.layui-bg-green{background-color: #52c41a !important;}
+/*弹框*/
+.elasticFrame{width: 600px;margin: 0 auto;padding: 20px 0;}
+.formTitlt{font-size: 18px;font-weight: 600;color: #333;}
+.elasticFrame .layui-input-block{margin-left: 80px;}
+.elasticFrame .layui-input-block li{display: block;}
+.elasticFrame .layui-input-block li .mid_name{width: 70px;text-align: right;font-weight: 600;padding: 6px 0;
+    margin-right: 15px;display: inline-block;vertical-align: top;}
+.elasticFrame .layui-input-block li .mid_value{width: calc(100% - 90px);padding: 6px 0;display: inline-block;vertical-align: top;}
+.screenshot{width: 140px;height: 100px;vertical-align: top;margin-bottom: 5px;}
+/*.screenshot+.screenshot{margin-left: 20px;}*/
+.center_btn{text-align: center;}

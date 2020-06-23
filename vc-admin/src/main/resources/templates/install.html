@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>设置</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="/libs/layui/css/layui.css" media="all"/>
+    <link rel="stylesheet" href="/css/common.css" media="all" />
+    <link rel="stylesheet" href="/css/install.css" media="all" />
+</head>
+<body class="childrenBody">
+<!--路径导航-->
+<div class="common">
+	<span class="layui-breadcrumb">
+		<a href="javascript:;">当前位置</a>
+		<span lay-separator="">：</span>
+		<a href="javascript:;"><cite>设置</cite></a>
+	</span>
+</div>
+<div class="subject">
+    <div class="currency">
+        <!--表单查询-->
+        <form class="layui-form formList" lay-filter="install" action="">
+            <div class="layui-form-item">
+                <label class="layui-form-label">原密码</label>
+                <div class="layui-inline compile">
+                    <input name="oldPass" class="layui-input" type="password" lay-verify="required|pass">
+                </div>
+            </div>
+            <div class="layui-form-item novel">
+                <label class="layui-form-label">新密码</label>
+                <div class="layui-inline compile">
+                    <input name="newPass" class="layui-input" type="password" lay-verify="required|pass">
+                </div>
+                <div class="layui-inline notes">注：密码设置为6-16位数字或者字母，字母区分大小写！</div>
+            </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">确认密码</label>
+                <div class="layui-inline compile">
+                    <input name="finalPass" class="layui-input" type="password" lay-verify="required|pass">
+                </div>
+            </div>
+            <div class="layui-form-item center_box">
+                <button type="submit" class="layui-btn layui-btn-normal" lay-submit="" lay-filter="modify">确认</button>
+            </div>
+        </form>
+    </div>
+</div>
+<script type="text/javascript" src="/libs/layui/layui.js"></script>
+<script type="text/javascript" src="/js/install.js"></script>
+<script type="text/javascript" src="/utils/md5.js"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+.tab_chart{
+    width: 100%;
+    margin: 20px 0px;
+}
+.tab_val td{
+    width: 3.3333%;
+    height: 24px;
+}
+.tab_bg td{
+    width: 3.3333%;
+    height: 48px;
+    background-color: #FF694D;
+}
+.tab_position td{
+    width: 3.3333%;
+    height: 48px;
+}
+.tab_bg td:nth-child(1){
+    background-color: #00FF41;
+    text-align: center;
+}
+.tab_bg td:nth-child(2){
+    text-align: center;
+}
+.icon{
+    height: 48px;
+    width: 100%;
+}
+.icon-arrowDown, .icon-arrowUp {
+    left: 0.25em;
+}
+.icon-arrowUp, .icon-arrowDown:after {
+    top: .3em;
+}
+.icon-arrowRight, .icon-arrowLeft, .icon-arrowDown, .icon-arrowUp {
+    position: absolute;
+    width: .1em;
+    height: 1.3em;
+    background-color: rgb(102, 102, 102);
+}
+.icon-arrowRight:after, .icon-arrowLeft:after, .icon-arrowDown:after, .icon-arrowUp:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-width: .2em;
+    border-style: solid;
+}
+.icon-arrowUp:after {
+    top: -0.41em;
+    border-color: transparent transparent rgb(102, 102, 102) transparent;
+}
+.icon-arrowDown:after, .icon-arrowUp:after {
+    left: -.15em;
+}
