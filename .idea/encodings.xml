@@ -3,7 +3,7 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/vc-admin" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/vc-admin/src/main/resources/application.yml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/vc-admin/src/main/resources/application.yml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/vc-mbpg" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/vc-pub" charset="UTF-8" />
   </component>

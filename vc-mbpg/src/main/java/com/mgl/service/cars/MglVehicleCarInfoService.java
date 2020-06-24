@@ -1,7 +1,8 @@
 package com.mgl.service.cars;
 
-import com.mgl.bean.cars.MglVehicleCarInfo;
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.mgl.bean.cars.MglVehicleCarInfo;
+import com.mgl.constant.CommonResult;
 
 /**
  * <p>
@@ -13,4 +14,9 @@ import com.baomidou.mybatisplus.extension.service.IService;
  */
 public interface MglVehicleCarInfoService extends IService<MglVehicleCarInfo> {
 
+    CommonResult getList(MglVehicleCarInfo mglVehicleCarInfo, Integer pageNum, Integer pageSize);
+
+    CommonResult addOrUpdate(MglVehicleCarInfo mglVehicleCarInfo);
+
+    Boolean deleteById(Long id);
 }

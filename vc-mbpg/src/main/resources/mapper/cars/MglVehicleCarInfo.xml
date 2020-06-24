@@ -23,13 +23,29 @@
         <result column="mixed_model" property="mixedModel" />
         <result column="main_turning_number" property="mainTurningNumber" />
         <result column="galvanic_cell_number" property="galvanicCellNumber" />
+        <result column="create_time" property="createTime" />
+        <result column="update_time" property="updateTime" />
         <result column="note" property="note" />
         <result column="del_flag" property="delFlag" />
     </resultMap>
 
     <!-- 通用查询结果列 -->
     <sql id="Base_Column_List">
-        id, car_vin, car_number, province, city, county_info, vehicle_customer, battery_number, order_number, battery_type, single_capacity, now_bcu_software_version, original_bcu_software_version, bus_route, bus_company, vehicle_service_time, mixed_model, main_turning_number, galvanic_cell_number, note, del_flag
+        id, car_vin, car_number, province, city, county_info, vehicle_customer, battery_number, order_number, battery_type, single_capacity, now_bcu_software_version, original_bcu_software_version, bus_route, bus_company, vehicle_service_time, mixed_model, main_turning_number, galvanic_cell_number, note, del_flag,create_time,update_time
     </sql>
+    <select id="getList" resultType="com.mgl.bean.cars.MglVehicleCarInfo">
+        select id,car_vin,car_number,province,city,county_info,vehicle_customer,battery_type
+        from mgl_vehicle_car_info
+        WHERE del_flag = 0
+        <if test="carVin !=null and carVin !=''">
+            AND car_vin like '%${carVin}%'
+        </if>
+        <if test="batteryNumber !=null and batteryNumber !=''">
+            AND battery_number like '${batteryNumber}%'
+        </if>
+        <if test="carNumber !=null and carNumber !=''">
+            AND car_number like '${carNumber}%'
+        </if>
+    </select>
 
 </mapper>

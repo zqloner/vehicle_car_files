@@ -1,35 +1,33 @@
 server:
-  port: 8800
+  port: 8080
   servlet:
     context-path: /
-
 spring:
   profiles:
-    active: dev #Ä¬ÈÏÎª¿ª·¢»·¾³
+    active: dev #é»˜è®¤ä¸ºå¼€å‘ç¯å¢ƒ
   freemarker:
-    # Ä£°åÄÚÈİÀàĞÍ
-    request-context-attribute: request
+    request-context-attribute: req
     suffix: .html
     content-type: text/html
     enabled: true
     cache: false
-    template-loader-path: classpath:/templates/   # Ä£°åÎ»ÖÃ
+    template-loader-path: classpath:/templates/
     settings:
       number_format:  '0.##'
-    devtools:
-      restart:
-        enabled: true    #ÈÈ²¿ÊğÉúĞ§
-        additional-paths: src/main/java
-        freemarker:
-          cache: false    #Ò³Ãæ²»¼ÓÔØ»º´æ£¬ĞŞ¸Ä¼´Ê±ÉúĞ§
+  devtools:
+    restart:
+      enabled: true
+      additional-paths: src/main/java
+      freemarker:
+        cache: false    #é¡µé¢ä¸åŠ è½½ç¼“å­˜ï¼Œä¿®æ”¹å³æ—¶ç”Ÿæ•ˆ
     http:
       encoding:
         force-response: true
 
-#ÈÕÖ¾Éú³ÉÄ¿Â¼
+#æ—¥å¿—ç”Ÿæˆç›®å½•
 logging:
   level:
-    root: info #ÈÕÖ¾ÅäÖÃDEBUG,INFO,WARN,ERROR
+    root: info #æ—¥å¿—é…ç½®DEBUG,INFO,WARN,ERROR
     com.brightease.bju: debug
     org.springframework: WARN
     org.spring.springboot.dao: info
@@ -38,7 +36,7 @@ logging:
 #mybatis-plus
 mybatis-plus:
   mapper-locations: classpath:mapper/*/*.xml
-  type-aliases-package: com.mgl.bean.*
+  type-aliases-package: com.brightease.bju.bean.*
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
 

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="../../libs/layui/css/layui.css" media="all"/>
+<!--    <link rel="stylesheet" href="../../css/common.css" media="all" />-->
+</head>
+<body>
+<!--路径导航-->
+<div class="common" >
+	<span class="layui-breadcrumb">
+		<a href="javascript:;">当前位置</a>
+		<span lay-separator="">：</span>
+		<a href="javascript:;">车辆档案管理</a>
+        <span lay-separator="">/</span>
+        <a href="route?name=prediction/line">明细信息管理</a>
+        <span lay-separator="">/</span>
+        <#if carId??>
+        <a class="pointer" href="#">编辑</a>
+        <#else>
+         <a class="pointer" href="#">添加</a>
+        </#if>
+	</span>
+</div>
+<!--内容主体-->
+<div class="main-content">
+    <form class="layui-form fullForm fullFormL" action="" >
+        <#if carId??>
+        <input type="hidden" name="carId" value="${carId}">
+        </#if>
+        <div class="layui-form-item">
+            <label class="layui-form-label">VIN：</label>
+
+            <div class="layui-input-inline long-inline">
+                <input type="text" name="carVin" autocomplete="off" class="layui-input" readonly lay-verify="pass">
+            </div>
+        </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">车牌号：</label>
+
+        <div class="layui-input-inline long-inline">
+            <input type="text" name="carNumber" autocomplete="off" class="layui-input" readonly lay-verify="pass">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">省份：</label>
+
+        <div class="layui-input-inline long-inline">
+            <input type="text" name="province" autocomplete="off" class="layui-input" readonly lay-verify="pass">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">市：</label>
+
+        <div class="layui-input-inline long-inline">
+            <input type="text" name="city" autocomplete="off" class="layui-input" readonly lay-verify="pass">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">区县：</label>
+
+        <div class="layui-input-inline long-inline">
+            <input type="text" name="countyInfo" autocomplete="off" class="layui-input" readonly lay-verify="pass">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">整车客户：</label>
+
+        <div class="layui-input-inline long-inline">
+            <input type="text" name="vehicleCustomer" autocomplete="off" class="layui-input" readonly lay-verify="pass">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">电池编号：</label>
+
+        <div class="layui-input-inline long-inline">
+            <input type="text" name="batteryNumber" autocomplete="off" class="layui-input" readonly lay-verify="pass">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">订单号：</label>
+
+        <div class="layui-input-inline long-inline">
+            <input type="text" name="orderNumber" autocomplete="off" class="layui-input" readonly lay-verify="pass">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">电池类型：</label>
+
+        <div class="layui-input-inline long-inline">
+            <input type="text" name="batteryType" autocomplete="off" readonly class="layui-input" >
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">单体容量：</label>
+
+        <div class="layui-input-inline long-inline">
+            <input type="text" name="singleCapacity" autocomplete="off" readonly class="layui-input" >
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">现BCU软件版本：</label>
+
+        <div class="layui-input-inline long-inline">
+            <input type="text" name="nowBcuSoftwareVersion" autocomplete="off" readonly class="layui-input" >
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">原BCU软件版本：</label>
+
+        <div class="layui-input-inline long-inline">
+            <input type="text" name="originalBcuSoftwareVersion" autocomplete="off" readonly class="layui-input" >
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">公交线路：</label>
+
+        <div class="layui-input-inline long-inline">
+            <input type="text" name="busRoute" autocomplete="off" readonly class="layui-input" >
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">公交公司：</label>
+
+        <div class="layui-input-inline long-inline">
+            <input type="text" name="busCompany" autocomplete="off" readonly class="layui-input" >
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">车辆投入使用时间：</label>
+
+        <div class="layui-input-inline long-inline">
+            <input type="text" name="vehicleServiceTime" autocomplete="off" readonly class="layui-input" >
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">混合模式：</label>
+
+        <div class="layui-input-inline long-inline">
+            <input type="text" name="mixedModel" autocomplete="off" readonly class="layui-input" >
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">主机厂车工号：</label>
+
+        <div class="layui-input-inline long-inline">
+            <input type="text" name="mainTurningNumber" autocomplete="off" readonly class="layui-input" >
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">原电池编号：</label>
+
+        <div class="layui-input-inline long-inline">
+            <input type="text" name="galvanicCellNumber" autocomplete="off" readonly class="layui-input" >
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">备注：</label>
+
+        <div class="layui-input-inline long-inline">
+            <input type="text" name="note" autocomplete="off" readonly class="layui-input" >
+        </div>
+    </div>
+        <div class="layui-form-item formBtn">
+            <div class="layui-input-block">
+                <button type="button" class="layui-btn layui-btn-primary whiteBtn btn-88" name="cenCelBtn" >返回</button>
+            </div>
+        </div>
+    </form>
+</div>
+<script type="text/javascript" src="/libs/layui/layui.js"></script>
+<script type="text/javascript" src="/js/cars/cars-info-detail.js"></script>
+</body>
+</html>
