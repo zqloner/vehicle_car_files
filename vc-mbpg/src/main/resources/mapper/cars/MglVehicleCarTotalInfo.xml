@@ -29,12 +29,26 @@
         <result column="two_second_kilometers" property="twoSecondKilometers" />
         <result column="question" property="question" />
         <result column="ke_poor" property="kePoor" />
-        <result column="delflag" property="delflag" />
+        <result column="del_flag" property="delFlag" />
+        <result column="create_time" property="createTime" />
+        <result column="update_time" property="updateTime" />
     </resultMap>
 
     <!-- 通用查询结果列 -->
     <sql id="Base_Column_List">
-        id, province, city, county_info, car_factory, battery_type, capacity, battery_system, parallel_connection, series_connection, vehicle_system, construction, vehicle_configuration, order_number, number, run_date, warranty_period, status, duty_engineer, service_station, note, three_may_kilometers, two_second_kilometers, question, ke_poor, delflag
+        id, province, city, county_info, car_factory, battery_type, capacity, battery_system, parallel_connection, series_connection, vehicle_system, construction, vehicle_configuration, order_number, number, run_date, warranty_period, status, duty_engineer, service_station, note, three_may_kilometers, two_second_kilometers, question, ke_poor, del_flag,create_time,update_time
     </sql>
+
+    <select id="getList" resultType="com.mgl.bean.cars.MglVehicleCarTotalInfo">
+        select <include refid="Base_Column_List"></include>
+        from mgl_vehicle_car_total_info
+        WHERE del_flag = 0
+        <if test="orderNumber !=null and orderNumber !=''">
+            AND order_number like '%${orderNumber}%'
+        </if>
+        <if test="batteryType !=null and batteryType !=''">
+            AND battery_type = '${batteryType}%'
+        </if>
+    </select>
 
 </mapper>

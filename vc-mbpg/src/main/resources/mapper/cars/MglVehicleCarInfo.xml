@@ -34,7 +34,7 @@
         id, car_vin, car_number, province, city, county_info, vehicle_customer, battery_number, order_number, battery_type, single_capacity, now_bcu_software_version, original_bcu_software_version, bus_route, bus_company, vehicle_service_time, mixed_model, main_turning_number, galvanic_cell_number, note, del_flag,create_time,update_time
     </sql>
     <select id="getList" resultType="com.mgl.bean.cars.MglVehicleCarInfo">
-        select id,car_vin,car_number,province,city,county_info,vehicle_customer,battery_type
+        select <include refid="Base_Column_List"></include>
         from mgl_vehicle_car_info
         WHERE del_flag = 0
         <if test="carVin !=null and carVin !=''">

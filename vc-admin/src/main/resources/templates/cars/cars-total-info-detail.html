@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="../../libs/layui/css/layui.css" media="all"/>
+<!--    <link rel="stylesheet" href="../../css/common.css" media="all" />-->
+</head>
+<body>
+<!--路径导航-->
+<div class="common" >
+	<span class="layui-breadcrumb">
+		<a href="javascript:;">当前位置</a>
+		<span lay-separator="">：</span>
+		<a href="javascript:;">车辆档案管理</a>
+        <span lay-separator="">/</span>
+        <a href="route?name=prediction/line">明细信息管理</a>
+        <span lay-separator="">/</span>
+        <#if carId??>
+        <a class="pointer" href="#">编辑</a>
+        <#else>
+         <a class="pointer" href="#">添加</a>
+        </#if>
+	</span>
+</div>
+<!--内容主体-->
+<div class="main-content">
+    <form class="layui-form fullForm fullFormL" action="" >
+        <#if carId??>
+        <input type="hidden" name="carId" value="${carId}">
+        </#if>
+        <div class="layui-form-item">
+            <label class="layui-form-label">省份：</label>
+
+            <div class="layui-input-inline long-inline">
+                <input type="text" name="province" autocomplete="off" class="layui-input" readonly lay-verify="pass">
+            </div>
+        </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">市级：</label>
+
+        <div class="layui-input-inline long-inline">
+            <input type="text" name="city" autocomplete="off" class="layui-input" readonly lay-verify="pass">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">区县：</label>
+
+        <div class="layui-input-inline long-inline">
+            <input type="text" name="countyInfo" autocomplete="off" class="layui-input" readonly lay-verify="pass">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">订单号：</label>
+
+        <div class="layui-input-inline long-inline">
+            <input type="text" name="orderNumber" autocomplete="off" class="layui-input" readonly >
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">数量：</label>
+
+        <div class="layui-input-inline long-inline">
+            <input type="text" name="number" autocomplete="off" class="layui-input" readonly >
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">整车厂：</label>
+
+        <div class="layui-input-inline long-inline">
+            <input type="text" name="carFactory" autocomplete="off" class="layui-input" lay-verify="pass" readonly>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">电池类型：</label>
+
+        <div class="layui-input-inline long-inline">
+            <input type="text" name="batteryType" autocomplete="off" class="layui-input" lay-verify="pass" readonly>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">容量：</label>
+
+        <div class="layui-input-inline long-inline">
+            <input type="text" name="capacity" autocomplete="off" class="layui-input" lay-verify="pass" readonly>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">电池系统：</label>
+
+        <div class="layui-input-inline long-inline">
+            <input type="text" name="batterySystem" autocomplete="off" class="layui-input" lay-verify="pass" readonly>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">并联：</label>
+
+        <div class="layui-input-inline long-inline">
+            <input type="text" name="parallelConnection" autocomplete="off" class="layui-input" lay-verify="pass" readonly>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">串联：</label>
+
+        <div class="layui-input-inline long-inline">
+            <input type="text" name="seriesConnection" autocomplete="off" class="layui-input" readonly >
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">整车系统：</label>
+
+        <div class="layui-input-inline long-inline">
+            <input type="text" name="vehicleSystem" autocomplete="off" class="layui-input"  readonly>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">结构：</label>
+
+        <div class="layui-input-inline long-inline">
+            <input type="text" name="construction" autocomplete="off" class="layui-input" readonly>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">整车配置：</label>
+
+        <div class="layui-input-inline long-inline">
+            <input type="text" name="vehicleConfiguration" autocomplete="off" class="layui-input" readonly >
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">运行日期：</label>
+
+        <div class="layui-input-inline long-inline">
+            <input type="text" name="runDate" autocomplete="off" class="layui-input" readonly>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">质保期限：</label>
+
+        <div class="layui-input-inline long-inline">
+            <input type="text" name="warrantyPeriod" autocomplete="off" class="layui-input" readonly>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">是否过保报废：</label>
+
+        <div class="layui-input-inline long-inline">
+            <input type="text" name="status" autocomplete="off" class="layui-input" readonly>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">覆盖授权服务站：</label>
+
+        <div class="layui-input-inline long-inline">
+            <input type="text" name="serviceStation" autocomplete="off" class="layui-input" readonly>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">责任工程师：</label>
+
+        <div class="layui-input-inline long-inline">
+            <input type="text" name="dutyEngineer" autocomplete="off" class="layui-input" readonly>
+        </div>
+    </div>
+        <div class="layui-form-item formBtn">
+            <div class="layui-input-block">
+                <button type="button" class="layui-btn layui-btn-primary whiteBtn btn-88" name="cenCelBtn" >返回</button>
+            </div>
+        </div>
+    </form>
+</div>
+<script type="text/javascript" src="/libs/layui/layui.js"></script>
+<script type="text/javascript" src="/js/cars/cars-total-info-add.js"></script>
+</body>
+</html>

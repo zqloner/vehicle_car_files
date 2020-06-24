@@ -35,10 +35,11 @@ layui.define(['jquery','upload'],function(exports){
                         //obj参数包含的信息，跟 choose回调完全一致，可参见上文。
                         layer.load(0, {shade: [0.2,'#000']})
                     }
-                    ,done: function(res, index, upload){  //执行上传请求后的回调
+                    ,done: callback == undefined ? function(res, index, upload){  //执行上传请求后的回调
+                        $(".addBtn").css("display","none");
                         layer.closeAll('loading'); //关闭loading
                         layer.msg("上传成功！");
-                    }
+                    } : callback
                     ,error: function(index, upload){   //执行上传请求出现异常的回调
                         layer.closeAll('loading'); //关闭loading
                         layer.msg("上传失败！");

@@ -35,6 +35,7 @@ layui.config({
             limit: limitNumber,
             cols: [//设置表头参数
                 [
+                    // {type:'checkbox'},
                     {field: 'carVin', align: "center", title: 'vin码', width: '12%', unresize: true}
                     /* , {field: 'missionStatus', align:'center', title: '状态', width: '8%',unresize:true,templet: function (d) {
                          if (d.missionStatus == "1") {return "未开始";
@@ -139,7 +140,8 @@ layui.config({
         for (var obj in searchObj) {
             requestURL += "&" + obj + "=" + searchObj[obj];
         }
-        window.location.href = "/misMission/exportMissionList?" + requestURL.substring(1);
+        debugger;
+        window.location.href = "/mglVehicleCarInfo/exportList?" + requestURL.substring(1);
     });
 
     //点击查找---监听submit提交
@@ -151,10 +153,10 @@ layui.config({
     });
 
     // 添加
-    // $("#newTask").click(function () {
-    //     console.log($(".layui-this").val());
-    //     window.location.href = "/changeViews?views=cars/cars-info-add";
-    // });
+    // 批量添加
+    $("#batchExport").click(function () {
+        window.location.href = "/changeViews?views=cars/cars-info-addMore";
+    });
 });
 
 

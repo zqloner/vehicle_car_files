@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="../../libs/layui/css/layui.css" media="all"/>
+    <link rel="stylesheet" href="../../css/common.css" media="all" />
+    <style type="text/css">
+        form{
+            text-align: center;
+        }
+        h3{
+            font-weight: 700
+        }
+        .layui-form-item .layui-input-block{
+            margin: 15px 0px
+        }
+        a.downTem{
+            display:block;
+            color: blue;
+            margin: 15px 0px
+        }
+        a.downTem:hover{
+            color: gray;
+        }
+        .layui-form-item .downTip{
+            display: block;
+            margin-left: 30px
+        }
+    </style>
+</head>
+<body>
+<!--路径导航-->
+<div class="common">
+	<span class="layui-breadcrumb">
+		<a href="javascript:;">当前位置</a>
+		<span lay-separator="">：</span>
+		<a href="javascript:;">车辆档案管理</a>
+        <span lay-separator="">/</span>
+        <a href="/changePage?page=user/leader">明细信息管理</a>
+        <span lay-separator="">/</span>
+        <a class="pointer" href="javascript:;">批量添加</a>
+	</span>
+</div>
+<!--内容主体-->
+<div class="main-content">
+    <form class="layui-form fullForm" action="">
+        <div class="layui-form-item">
+            <h3 class="listNum">1.模板导入</h3>
+            <a class="downTem"  download href="/leaderLeader/downloadTemplate">点击下载《领队信息导入模板》</a>
+            <span  class="downTip">为了导入准确性，请严格按照模板格式及要求填写</span>
+        </div>
+
+        <h3 class="listNum">2.上传文件</h3>
+
+        <div class="layui-form-item">
+            <div class="layui-input-block">
+<!--                <input name="file" type="text" autocomplete="off" class="layui-input">-->
+                <button  type="button" class="layui-btn clickBtn btn-110" id="upload">
+                    <i  class="layui-icon">&#xe608;</i> 上传文件
+                </button>
+            </div>
+        </div>
+    </form>
+</div>
+<script type="text/javascript" src="/libs/layui/layui.js"></script>
+<script type="text/javascript" src="/js/cars/cars-info-addMore.js"></script>
+</body>
+</html>

@@ -4,6 +4,8 @@ import com.baomidou.mybatisplus.extension.service.IService;
 import com.mgl.bean.cars.MglVehicleCarInfo;
 import com.mgl.constant.CommonResult;
 
+import java.util.List;
+
 /**
  * <p>
  *  服务类
@@ -14,7 +16,7 @@ import com.mgl.constant.CommonResult;
  */
 public interface MglVehicleCarInfoService extends IService<MglVehicleCarInfo> {
 
-    CommonResult getList(MglVehicleCarInfo mglVehicleCarInfo, Integer pageNum, Integer pageSize);
+    List<MglVehicleCarInfo> getList(MglVehicleCarInfo mglVehicleCarInfo);
 
     CommonResult addOrUpdate(MglVehicleCarInfo mglVehicleCarInfo);
 

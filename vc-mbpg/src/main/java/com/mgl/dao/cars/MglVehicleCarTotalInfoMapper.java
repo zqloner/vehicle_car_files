@@ -1,8 +1,10 @@
 package com.mgl.dao.cars;
 
-import com.mgl.bean.cars.MglVehicleCarTotalInfo;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.mgl.bean.cars.MglVehicleCarTotalInfo;
 import org.apache.ibatis.annotations.Mapper;
+
+import java.util.List;
 
 /**
  * <p>
@@ -15,4 +17,5 @@ import org.apache.ibatis.annotations.Mapper;
 @Mapper
 public interface MglVehicleCarTotalInfoMapper extends BaseMapper<MglVehicleCarTotalInfo> {
 
+    List<MglVehicleCarTotalInfo> getList(MglVehicleCarTotalInfo mglVehicleCarTotalInfo);
 }
