@@ -49,7 +49,7 @@ layui.config({
         }
     });
     $("[name='cenCelBtn']").click(function () {
-        window.location.href="/changeViews?views=cars/cars-info";
+        window.location.href="/changeViews?views=cars/cars-total-info";
     });
 // //加载
     var id = $("[name='carId']").val();
