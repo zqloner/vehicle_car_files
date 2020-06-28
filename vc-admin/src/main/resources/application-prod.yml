@@ -1,7 +1,7 @@
 #上传路径配置
-#brightease:
-#  filePath: /opt/root/bju/
-#  tempUpLoadPath: /opt/root/bju/temp/
+brightease:
+  filePath: /opt/root/cars/
+  tempUpLoadPath: /opt/root/cars/temp/
 
 #mysql
 spring:
@@ -19,18 +19,18 @@ spring:
         login-username: druid
         login-password: druid
   #redis配置
-  #  redis:
-  #    database: 0
-  #    host: 192.168.29.101
-  #    port: 6379
-  #    password: 123456     # 密码（默认为空）
-  #    timeout: 6000  # 连接超时时长（ timeout*60*60）
-  #    jedis:
-  #      pool:
-  #        max-active: 1000  # 连接池最大连接数（使用负值表示没有限制）
-  #        max-wait: -1      # 连接池最大阻塞等待时间（使用负值表示没有限制）
-  #        max-idle: 10      # 连接池中的最大空闲连接
-  #        min-idle: 5       # 连接池中的最小空闲连接0
+    redis:
+      database: 0
+      host: 192.168.29.110
+      port: 6379
+      password: mglRedisPWD     # 密码（默认为空）
+      timeout: 6000  # 连接超时时长（ timeout*60*60）
+      jedis:
+        pool:
+          max-active: 1000  # 连接池最大连接数（使用负值表示没有限制）
+          max-wait: -1      # 连接池最大阻塞等待时间（使用负值表示没有限制）
+          max-idle: 10      # 连接池中的最大空闲连接
+          min-idle: 5       # 连接池中的最小空闲连接0
 
   #上传文件大小的控制
   servlet:
@@ -39,14 +39,14 @@ spring:
       max-file-size: 100MB
 
 #设置ftp
-#ftp:
-#  host: 192.168.29.101
-#  port: 22
-#  username: root
-#  password: 123456
-#  defatultport: 22
-#  serverpath: bju
-#  req:
-#    url: 192.168.29.101
+ftp:
+  host: 192.168.0.110
+  port: 22
+  username: root
+  password: 1qazXSW@
+  defatultport: 22
+  serverpath: carsfile
+  req:
+    url: 192.168.0.110
 
 

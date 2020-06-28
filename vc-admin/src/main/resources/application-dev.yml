@@ -1,7 +1,7 @@
 #上传路径配置
-#brightease:
-#  filePath: d:/
-#  tempUpLoadPath: d:/
+brightease:
+  filePath: d:/
+  tempUpLoadPath: d:/
 
 #mysql
 spring:
@@ -24,9 +24,9 @@ spring:
       max-file-size: 100MB
   redis:
     database: 1
-    host: 192.168.0.110
+    host: localhost
     port: 6379
-    password: mglRedisPWD     # 密码（默认为空）
+    password: 123456     # 密码（默认为空）
     timeout: 6000ms # 连接超时时长（ timeout*60*60）
     jedis:
       pool:

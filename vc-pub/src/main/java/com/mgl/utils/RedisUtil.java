@@ -398,7 +398,7 @@ public final class RedisUtil {
      * 将list放入缓存
      * @param key 键
      * @param value 值
-     * @param time 时间(秒)
+     * @param
      * @return
      */
     public boolean lSet(String key, Object value) {
@@ -432,7 +432,7 @@ public final class RedisUtil {
      * 将list放入缓存
      * @param key 键
      * @param value 值
-     * @param time 时间(秒)
+     * @param
      * @return
      */
     public boolean lSet(String key, List<Object> value) {
